@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent": "GetCurrentMapsIntent"
+    },
+    {
+      "intent": "GetCurrentRankedMapsIntent"
+    },
+    {
+      "intent": "GetCurrentTurfWarMapsIntent"
+    },
+    {
+      "intent": "GetCurrentRankedModeIntent"
+    },
+    {
+      "intent": "GetUpcomingMapsIntent"
+    },
+    {
+      "intent": "GetUpcomingRankedMapsIntent"
+    },
+    {
+      "intent": "GetUpcomingTurfWarMapsIntent"
+    },
+    {
+      "intent": "GetUpcomingRankedModeIntent"
+    },
+    {
+      "intent": "GetRotationTimeIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+ }

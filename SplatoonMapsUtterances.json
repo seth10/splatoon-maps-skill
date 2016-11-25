@@ -1,0 +1,165 @@
+GetCurrentMapsIntent what maps are on
+GetCurrentMapsIntent what splatoon maps are on
+GetCurrentMapsIntent what maps are on rotation
+GetCurrentMapsIntent what splatoon maps are on rotation
+GetCurrentMapsIntent what stages are on
+GetCurrentMapsIntent what's the rotation
+GetCurrentMapsIntent what's the splatoon rotation
+GetCurrentMapsIntent what's the splatoon map rotation
+GetCurrentMapsIntent what are the current splatoon maps
+GetCurrentMapsIntent what're the current splatoon maps
+
+GetCurrentRankedMapsIntent what ranked maps are on
+GetCurrentRankedMapsIntent what splatoon ranked maps are on
+GetCurrentRankedMapsIntent what ranked maps are on rotation
+GetCurrentRankedMapsIntent what splatoon ranked maps are on rotation
+GetCurrentRankedMapsIntent what ranked stages are on
+GetCurrentRankedMapsIntent what's the ranked rotation
+GetCurrentRankedMapsIntent what's the splatoon ranked rotation
+GetCurrentRankedMapsIntent what's the splatoon ranked map rotation
+GetCurrentRankedMapsIntent what are the current ranked maps
+GetCurrentRankedMapsIntent what are the current ranked splatoon maps
+GetCurrentRankedMapsIntent what're the current ranked maps
+GetCurrentRankedMapsIntent what're the current ranked splatoon maps
+
+GetCurrentTurfWarMapsIntent what turf war maps are on
+GetCurrentTurfWarMapsIntent what turf wars maps are on
+GetCurrentTurfWarMapsIntent what splatoon turf war maps are on
+GetCurrentTurfWarMapsIntent what splatoon turf wars maps are on
+GetCurrentTurfWarMapsIntent what turf war maps are on rotation
+GetCurrentTurfWarMapsIntent what turf wars maps are on rotation
+GetCurrentTurfWarMapsIntent what splatoon turf war maps are on rotation
+GetCurrentTurfWarMapsIntent what splatoon turf wars maps are on rotation
+GetCurrentTurfWarMapsIntent what turf war stages are on
+GetCurrentTurfWarMapsIntent what turf wars stages are on
+GetCurrentTurfWarMapsIntent what's the turf war rotation
+GetCurrentTurfWarMapsIntent what's the turf wars rotation
+GetCurrentTurfWarMapsIntent what's the splatoon turf war rotation
+GetCurrentTurfWarMapsIntent what's the splatoon turf wars rotation
+GetCurrentTurfWarMapsIntent what's the splatoon turf war map rotation
+GetCurrentTurfWarMapsIntent what's the splatoon turf wars map rotation
+GetCurrentTurfWarMapsIntent what are the current turf war maps
+GetCurrentTurfWarMapsIntent what are the current turf wars maps
+GetCurrentTurfWarMapsIntent what're the current turf war maps
+GetCurrentTurfWarMapsIntent what're the current turf wars maps
+
+GetCurrentRankedModeIntent what ranked mode is on
+GetCurrentRankedModeIntent what splatoon ranked mode is on
+GetCurrentRankedModeIntent what ranked mode is on rotation
+GetCurrentRankedModeIntent what splatoon ranked mode is on rotation
+GetCurrentRankedModeIntent what ranked mode is on
+GetCurrentRankedModeIntent what's the ranked mode
+GetCurrentRankedModeIntent what's the ranked mode rotation
+GetCurrentRankedModeIntent what's the splatoon ranked mode
+GetCurrentRankedModeIntent what's the splatoon ranked mode rotation
+GetCurrentRankedModeIntent what is the current ranked mode
+GetCurrentRankedModeIntent what is the current ranked splatoon mode
+GetCurrentRankedModeIntent what's the current ranked mode
+GetCurrentRankedModeIntent what's the current ranked splatoon mode
+
+GetUpcomingMapsIntent what maps will be on
+GetUpcomingMapsIntent what splatoon maps will be on
+GetUpcomingMapsIntent what maps will be on rotation
+GetUpcomingMapsIntent what splatoon maps will be on rotation
+GetUpcomingMapsIntent what stages will be on
+GetUpcomingMapsIntent what's the next rotation
+GetUpcomingMapsIntent what's the next splatoon rotation
+GetUpcomingMapsIntent what's the next splatoon map rotation
+GetUpcomingMapsIntent what are the next maps
+GetUpcomingMapsIntent what are the next splatoon maps
+GetUpcomingMapsIntent what're the next maps
+GetUpcomingMapsIntent what're the next splatoon maps
+
+GetUpcomingRankedMapsIntent what ranked maps will be on
+GetUpcomingRankedMapsIntent what splatoon ranked maps will be on
+GetUpcomingRankedMapsIntent what ranked maps will be on rotation
+GetUpcomingRankedMapsIntent what splatoon ranked maps will be on rotation
+GetUpcomingRankedMapsIntent what ranked stages will be on
+GetUpcomingRankedMapsIntent what's the next ranked rotation
+GetUpcomingRankedMapsIntent what's the next splatoon ranked rotation
+GetUpcomingRankedMapsIntent what's the next ranked splatoon rotation
+GetUpcomingRankedMapsIntent what's the next splatoon ranked map rotation
+GetUpcomingRankedMapsIntent what's the next ranked splatoon map rotation
+GetUpcomingRankedMapsIntent what are the next ranked maps
+GetUpcomingRankedMapsIntent what are the next ranked splatoon maps
+GetUpcomingRankedMapsIntent what are the next splatoon ranked maps
+GetUpcomingRankedMapsIntent what're the next ranked maps
+GetUpcomingRankedMapsIntent what're the next ranked splatoon maps
+GetUpcomingRankedMapsIntent what're the next splatoon ranked maps
+
+GetUpcomingTurfWarMapsIntent what turf war maps will be on
+GetUpcomingTurfWarMapsIntent what turf wars maps will be on
+GetUpcomingTurfWarMapsIntent what splatoon turf war maps will be on
+GetUpcomingTurfWarMapsIntent what splatoon turf wars maps will be on
+GetUpcomingTurfWarMapsIntent what turf war maps will be on rotation
+GetUpcomingTurfWarMapsIntent what turf wars maps will be on rotation
+GetUpcomingTurfWarMapsIntent what splatoon turf war maps will be on rotation
+GetUpcomingTurfWarMapsIntent what splatoon turf wars maps will be on rotation
+GetUpcomingTurfWarMapsIntent what turf war stages will be on
+GetUpcomingTurfWarMapsIntent what turf wars stages will be on
+GetUpcomingTurfWarMapsIntent what's the next turf war rotation
+GetUpcomingTurfWarMapsIntent what's the next turf wars rotation
+GetUpcomingTurfWarMapsIntent what's the next splatoon turf war rotation
+GetUpcomingTurfWarMapsIntent what's the next splatoon turf wars rotation
+GetUpcomingTurfWarMapsIntent what's the next turf war splatoon rotation
+GetUpcomingTurfWarMapsIntent what's the next turf wars splatoon rotation
+GetUpcomingTurfWarMapsIntent what's the next splatoon turf war map rotation
+GetUpcomingTurfWarMapsIntent what's the next splatoon turf wars map rotation
+GetUpcomingTurfWarMapsIntent what's the next turf war splatoon map rotation
+GetUpcomingTurfWarMapsIntent what's the next turf wars splatoon map rotation
+GetUpcomingTurfWarMapsIntent what are the next turf war maps
+GetUpcomingTurfWarMapsIntent what are the next turf wars maps
+GetUpcomingTurfWarMapsIntent what are the next turf war splatoon maps
+GetUpcomingTurfWarMapsIntent what are the next turf wars splatoon maps
+GetUpcomingTurfWarMapsIntent what are the next splatoon turf war maps
+GetUpcomingTurfWarMapsIntent what are the next splatoon turf wars maps
+GetUpcomingTurfWarMapsIntent what're the next turf war maps
+GetUpcomingTurfWarMapsIntent what're the next turf wars maps
+GetUpcomingTurfWarMapsIntent what're the next turf war splatoon maps
+GetUpcomingTurfWarMapsIntent what're the next turf wars splatoon maps
+GetUpcomingTurfWarMapsIntent what're the next splatoon turf war maps
+GetUpcomingTurfWarMapsIntent what're the next splatoon turf wars maps
+
+GetUpcomingRankedModeIntent what ranked mode will be on
+GetUpcomingRankedModeIntent what splatoon ranked mode will be on
+GetUpcomingRankedModeIntent what ranked mode will be on rotation
+GetUpcomingRankedModeIntent what splatoon ranked mode will be on rotation
+GetUpcomingRankedModeIntent what ranked mode will be on
+GetUpcomingRankedModeIntent what's the next ranked mode
+GetUpcomingRankedModeIntent what's the next ranked mode rotation
+GetUpcomingRankedModeIntent what's the next splatoon ranked mode
+GetUpcomingRankedModeIntent what's the next splatoon ranked mode rotation
+GetUpcomingRankedModeIntent what is the next ranked mode
+GetUpcomingRankedModeIntent what is the next ranked splatoon mode
+GetUpcomingRankedModeIntent what's the next ranked mode
+GetUpcomingRankedModeIntent what's the next ranked splatoon mode
+
+GetRotationTimeIntent when will this rotation end
+GetRotationTimeIntent when will this splatoon rotation end
+GetRotationTimeIntent when will the current splatoon rotation end
+GetRotationTimeIntent when'll this rotation end
+GetRotationTimeIntent when'll this splatoon rotation end
+GetRotationTimeIntent when'll the current splatoon rotation end
+GetRotationTimeIntent when will this map rotation end
+GetRotationTimeIntent when will this splatoon map rotation end
+GetRotationTimeIntent when will the current splatoon map rotation end
+GetRotationTimeIntent when'll this map rotation end
+GetRotationTimeIntent when'll this splatoon map rotation end
+GetRotationTimeIntent when'll the current splatoon map rotation end
+
+GetRotationTimeIntent when will this map rotation be over
+GetRotationTimeIntent when will this splatoon map rotation be over
+GetRotationTimeIntent when will the current splatoon map rotation be over
+GetRotationTimeIntent when'll this map rotation be over
+GetRotationTimeIntent when'll this splatoon map rotation be over
+GetRotationTimeIntent when'll the current splatoon map rotation be over
+GetRotationTimeIntent when will this map rotation finnish
+GetRotationTimeIntent when will this splatoon map rotation finish
+GetRotationTimeIntent when will the current splatoon map rotation finish
+GetRotationTimeIntent when'll this map rotation finish
+GetRotationTimeIntent when'll this splatoon map rotation finish
+GetRotationTimeIntent when'll the current splatoon map rotation finish
+GetRotationTimeIntent when will the next maps be on
+GetRotationTimeIntent when will the next splatoon maps be on
+GetRotationTimeIntent when'll the next maps be on
+GetRotationTimeIntent when'll the next splatoon maps be on
