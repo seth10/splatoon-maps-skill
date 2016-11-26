@@ -1,0 +1,17 @@
+{
+  "name": "splatoon-maps-skill",
+  "version": "0.2.0",
+  "description": "Find out what Splatoon maps are on rotation",
+  "author": {
+    "name": "Seth T"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.79.0",
+    "alexa-sdk": "^1.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethten/splatoon-maps-skill.git"
+  }
+}
