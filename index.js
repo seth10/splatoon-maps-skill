@@ -1,8 +1,9 @@
 'use strict';
-var Alexa = require('alexa-sdk');
-var APP_ID = 'amzn1.ask.skill.redacted';
+let Alexa = require('alexa-sdk');
+let APP_ID = 'amzn1.ask.skill.redacted';
 
-var request = require('request');
+let request = require('request');
+let moment = require('moment');
 
 exports.handler = function(event, context, callback) {
     var alexa = Alexa.handler(event, context);
@@ -19,6 +20,7 @@ exports.handler = function(event, context, callback) {
             case 'GetCurrentRankedMapsIntent':
             case 'GetCurrentTurfWarMapsIntent':
             case 'GetCurrentRankedModeIntent':
+            case 'GetRotationTimeIntent':
                 schedule = body.schedule[0];
                 timeAdjective = 'current';
                 break;
@@ -52,7 +54,17 @@ exports.handler = function(event, context, callback) {
                 break;
             
             case 'GetRotationTimeIntent':
-                alexa.emit(':tell', `The next map ends at ${new Date(schedule.endTime)}, in ${new Date() - new Date(schedule.endTime)}.`); // need to format
+                // time difference should never be over 4 hours
+                
+                // most simple, but only says in 3, 2, or 1 hours, or n minutes if less than an hour left (NOT both like "in h hours and mm minutes")
+                //alexa.emit(':tell', `The current maps ends at ${moment(schedule.endTime).format('h:mm a')}, ${moment(schedule.endTime).fromNow()}.`);
+            
+                // complete and works, I feel like it should be simpler than this though
+                if (moment(schedule.endTime).diff(moment(), 'hours') > 0)
+                    alexa.emit(':tell', `The current maps ends at ${moment(schedule.endTime).format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'hours')} hours and ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
+                else
+                    alexa.emit(':tell', `The current maps ends at ${moment(schedule.endTime).format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
+                
                 break;
         }
         

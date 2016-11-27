@@ -8,7 +8,8 @@
   "main": "index.js",
   "dependencies": {
     "request": "^2.79.0",
-    "alexa-sdk": "^1.0.6"
+    "alexa-sdk": "^1.0.6",
+    "moment": "^2.17.0"
   },
   "repository": {
     "type": "git",
