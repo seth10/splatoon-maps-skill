@@ -1,0 +1,19 @@
+GetCurrentMapsIntent what stages are on
+
+GetCurrentRankedMapsIntent what ranked battle stages are on
+
+GetCurrentTurfWarMapsIntent what regular battle stages are on
+
+GetCurrentRankedModeIntent what ranked battle mode is on
+
+
+GetUpcomingMapsIntent what stages are on next
+
+GetUpcomingRankedMapsIntent what ranked battle stages are on next
+
+GetUpcomingTurfWarMapsIntent what regular battle stages are on next
+
+GetUpcomingRankedModeIntent what ranked battle mode is on next
+
+
+GetRotationTimeIntent when will this rotation end

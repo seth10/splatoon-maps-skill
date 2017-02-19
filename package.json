@@ -1,9 +1,9 @@
 {
-  "name": "splatoon-maps-skill",
-  "version": "0.2.0",
-  "description": "Find out what Splatoon maps are on rotation",
+  "name": "splatter",
+  "version": "0.3.0",
+  "description": "A fan-made skill to find out what Splatoon maps are on rotation",
   "author": {
-    "name": "Seth T"
+    "name": "Seth Tenembaum"
   },
   "main": "index.js",
   "dependencies": {
