@@ -61,9 +61,9 @@ exports.handler = function(event, context, callback) {
             
                 // complete and works, I feel like it should be simpler than this though
                 if (moment(schedule.endTime).diff(moment(), 'hours') > 0)
-                    alexa.emit(':tell', `The current maps ends at ${moment(schedule.endTime).format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'hours')} hours and ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
+                    alexa.emit(':tell', `The current maps ends at ${moment.utc(schedule.endTime).local().utcOffset(-5*60).format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'hours')} hours and ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
                 else
-                    alexa.emit(':tell', `The current maps ends at ${moment(schedule.endTime).format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
+                    alexa.emit(':tell', `The current maps ends at ${moment.utc(schedule.endTime).local().utcOffset(-5*60).format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
                 
                 break;
         }
