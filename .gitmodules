@@ -1,9 +1,0 @@
-[submodule "node_modules/moment"]
-	path = node_modules/moment
-	url = https://github.com/moment/moment.git
-[submodule "node_modules/request"]
-	path = node_modules/request
-	url = https://github.com/request/request.git
-[submodule "node_modules/alexa-sdk"]
-	path = node_modules/alexa-sdk
-	url = https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs.git
