@@ -59,9 +59,9 @@ var handlers = {
     'GetRotationTimeIntent': function() {
         handleSplatterIntents(this.emit, function(emit, schedule) {
             if (moment(schedule.endTime).diff(moment(), 'hours') > 0)
-                emit(':tell', `The current maps ends at ${moment(schedule.endTime).format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'hours')} hours and ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
+                emit(':tell', `The current maps ends at ${moment(schedule.endTime).utcOffset('-0500').format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'hours')} hours and ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
             else
-                emit(':tell', `The current maps ends at ${moment(schedule.endTime).format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
+                emit(':tell', `The current maps ends at ${moment(schedule.endTime).utcOffset('-0500').format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
         });
     },
     'AMAZON.HelpIntent': function () {
