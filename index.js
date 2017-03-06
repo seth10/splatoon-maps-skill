@@ -68,7 +68,7 @@ var handlers = {
         this.emit(':tell', 'You can say: what are the current maps?');
     },
     'AMAZON.CancelIntent': function () {
-        this.emit(':tell', 'Stay fresh!');
+        this.emit('AMAZON.StopIntent');
     },
     'AMAZON.StopIntent': function () {
         this.emit(':tell', 'Stay fresh!');
