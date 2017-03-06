@@ -10,63 +10,54 @@ exports.handler = function(event, context, callback) {
     alexa.appId = APP_ID;
     alexa.registerHandlers(handlers);
     alexa.execute();
-}
+};
 
 var handlers = {
     'LaunchRequest': function() {
         this.emit('GetCurrentMapsIntent');
     },
     'GetCurrentMapsIntent': function() {
-        var emit = this.emit;
-        handleSplatterIntents(function(schedule) {
+        handleSplatterIntents(this.emit, function(emit, schedule) {
             emit(':tell', `The current maps are ${schedule.regular.maps[0].name.en} and ${schedule.regular.maps[1].name.en} for Turf Wars, and ${schedule.ranked.maps[0].name.en} and ${schedule.ranked.maps[1].name.en} for ${schedule.ranked.rules.en}.`);
         });
     },
     'GetCurrentRankedMapsIntent': function() {
-        var emit = this.emit;
-        handleSplatterIntents(function(schedule) {
+        handleSplatterIntents(this.emit, function(emit, schedule) {
             emit(':tell', `The current ${schedule.ranked.rules.en} maps are ${schedule.ranked.maps[0].name.en} and ${schedule.ranked.maps[1].name.en}.`);
         });
     },
     'GetCurrentTurfWarMapsIntent': function() {
-        var emit = this.emit;
-        handleSplatterIntents(function(schedule) {
+        handleSplatterIntents(this.emit, function(emit, schedule) {
             emit(':tell', `The current Turf Wars maps are ${schedule.regular.maps[0].name.en} and ${schedule.regular.maps[1].name.en}.`);
         });
     },
     'GetCurrentRankedModeIntent': function() {
-        var emit = this.emit;
-        handleSplatterIntents(function(schedule) {
+        handleSplatterIntents(this.emit, function(emit, schedule) {
             emit(':tell', `The current ranked mode is ${schedule.ranked.rules.en}.`);
         });
     },
     'GetUpcomingMapsIntent': function() {
-        var emit = this.emit;
-        handleSplatterIntents(function(schedule) {
+        handleSplatterIntents(this.emit, function(emit, schedule) {
             emit(':tell', `The next maps are ${schedule.regular.maps[0].name.en} and ${schedule.regular.maps[1].name.en} for Turf Wars, and ${schedule.ranked.maps[0].name.en} and ${schedule.ranked.maps[1].name.en} for ${schedule.ranked.rules.en}.`);
         });
     },
     'GetUpcomingRankedMapsIntent': function() {
-        var emit = this.emit;
-        handleSplatterIntents(function(schedule) {
+        handleSplatterIntents(this.emit, function(emit, schedule) {
             emit(':tell', `The next ${schedule.ranked.rules.en} maps are ${schedule.ranked.maps[0].name.en} and ${schedule.ranked.maps[1].name.en}.`);
         });
     },
     'GetUpcomingTurfWarMapsIntent': function() {
-        var emit = this.emit;
-        handleSplatterIntents(function(schedule) {
+        handleSplatterIntents(this.emit, function(emit, schedule) {
             emit(':tell', `The next Turf Wars maps are ${schedule.regular.maps[0].name.en} and ${schedule.regular.maps[1].name.en}.`);
         });
     },
     'GetUpcomingRankedModeIntent': function() {
-        var emit = this.emit;
-        handleSplatterIntents(function(schedule) {
+        handleSplatterIntents(this.emit, function(emit, schedule) {
             emit(':tell', `The next ranked mode is ${schedule.ranked.rules.en}.`);
         });
     },
     'GetRotationTimeIntent': function() {
-        var emit = this.emit;
-        handleSplatterIntents(function(schedule) {
+        handleSplatterIntents(this.emit, function(emit, schedule) {
             if (moment(schedule.endTime).diff(moment(), 'hours') > 0)
                 emit(':tell', `The current maps ends at ${moment(schedule.endTime).format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'hours')} hours and ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
             else
@@ -84,11 +75,11 @@ var handlers = {
     }
 };
     
-function handleSplatterIntents(callback) {
+function handleSplatterIntents(emit, callback) {
     request({
         url: 'http://splatoon.ink/schedule.json',
         json: true
     }, function (error, response, body) {
-        callback(body.schedule[0]);
+        callback(emit, body.schedule[0]);
     });
 }
