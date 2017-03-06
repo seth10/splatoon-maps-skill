@@ -2,17 +2,24 @@
   "name": "splatter",
   "version": "0.3.0",
   "description": "A fan-made skill to find out what Splatoon maps are on rotation",
-  "author": {
-    "name": "Seth Tenembaum"
-  },
   "main": "index.js",
+  "keywords": [
+    "splatoon",
+    "nintendo",
+    "wii u",
+    "games",
+    "fan-made",
+    "alexa",
+    "skill"
+  ],
+  "author": "Seth Tenembaum",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sethten/splatoon-maps-skill.git"
+  },
   "dependencies": {
     "request": "^2.79.0",
     "alexa-sdk": "^1.0.6",
     "moment": "^2.17.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sethten/splatoon-maps-skill.git"
   }
 }
