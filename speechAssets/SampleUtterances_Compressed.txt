@@ -1,0 +1,5 @@
+GetCurrentMapsIntent what {maps,stages} are on {,rotation}
+GetCurrentMapsIntent what is the {,current} {,map,stage} rotation
+GetCurrentMapsIntent what are the {,current} {maps,stages} {,on rotation}
+GetCurrentMapsIntent {,get} the {,current} {maps,stages} {,on rotation}
+GetCurrentMapsIntent {,get} the {,map,stage} rotation
