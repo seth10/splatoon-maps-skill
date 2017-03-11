@@ -5,197 +5,880 @@ GetCurrentMapsIntent what stages are on rotation
 GetCurrentMapsIntent what is the rotation
 GetCurrentMapsIntent what is the map rotation
 GetCurrentMapsIntent what is the stage rotation
-GetCurrentMapsIntent what are the current maps
-GetCurrentMapsIntent what are the current stages
-GetCurrentMapsIntent what are the current maps on rotation
-GetCurrentMapsIntent what are the current stages on rotation
 GetCurrentMapsIntent what is the current rotation
 GetCurrentMapsIntent what is the current map rotation
 GetCurrentMapsIntent what is the current stage rotation
-GetCurrentMapsIntent the maps
-GetCurrentMapsIntent the stages
-GetCurrentMapsIntent the maps on rotation
-GetCurrentMapsIntent the stages on rotation
+GetCurrentMapsIntent get the rotation
+GetCurrentMapsIntent get the map rotation
+GetCurrentMapsIntent get the stage rotation
+GetCurrentMapsIntent get the current rotation
+GetCurrentMapsIntent get the current map rotation
+GetCurrentMapsIntent get the current stage rotation
 GetCurrentMapsIntent the rotation
 GetCurrentMapsIntent the map rotation
 GetCurrentMapsIntent the stage rotation
-GetCurrentMapsIntent the current maps
-GetCurrentMapsIntent the current stages
-GetCurrentMapsIntent the current maps on rotation
-GetCurrentMapsIntent the current stages on rotation
 GetCurrentMapsIntent the current rotation
 GetCurrentMapsIntent the current map rotation
 GetCurrentMapsIntent the current stage rotation
+GetCurrentMapsIntent what are the maps
+GetCurrentMapsIntent what are the stages
+GetCurrentMapsIntent what are the current maps
+GetCurrentMapsIntent what are the current stages
+GetCurrentMapsIntent what are the maps on rotation
+GetCurrentMapsIntent what are the stages on rotation
+GetCurrentMapsIntent what are the current maps on rotation
+GetCurrentMapsIntent what are the current stages on rotation
+GetCurrentMapsIntent get the maps
+GetCurrentMapsIntent get the stages
+GetCurrentMapsIntent get the current maps
+GetCurrentMapsIntent get the current stages
+GetCurrentMapsIntent get the maps on rotation
+GetCurrentMapsIntent get the stages on rotation
+GetCurrentMapsIntent get the current maps on rotation
+GetCurrentMapsIntent get the current stages on rotation
+GetCurrentMapsIntent the maps
+GetCurrentMapsIntent the stages
+GetCurrentMapsIntent the current maps
+GetCurrentMapsIntent the current stages
+GetCurrentMapsIntent the maps on rotation
+GetCurrentMapsIntent the stages on rotation
+GetCurrentMapsIntent the current maps on rotation
+GetCurrentMapsIntent the current stages on rotation
+GetCurrentMapsIntent what's on
+GetCurrentMapsIntent what is on
+GetCurrentMapsIntent what's on rotation
+GetCurrentMapsIntent what is on rotation
 
 GetCurrentRankedMapsIntent what ranked maps are on
 GetCurrentRankedMapsIntent what ranked stages are on
 GetCurrentRankedMapsIntent what ranked maps are on rotation
 GetCurrentRankedMapsIntent what ranked stages are on rotation
+GetCurrentRankedMapsIntent what ranked battle maps are on
+GetCurrentRankedMapsIntent what ranked battle stages are on
+GetCurrentRankedMapsIntent what ranked battle maps are on rotation
+GetCurrentRankedMapsIntent what ranked battle stages are on rotation
 GetCurrentRankedMapsIntent what is the ranked rotation
 GetCurrentRankedMapsIntent what is the ranked map rotation
 GetCurrentRankedMapsIntent what is the ranked stage rotation
+GetCurrentRankedMapsIntent what is the ranked battle rotation
+GetCurrentRankedMapsIntent what is the ranked battle map rotation
+GetCurrentRankedMapsIntent what is the ranked battle stage rotation
+GetCurrentRankedMapsIntent what is the current ranked rotation
+GetCurrentRankedMapsIntent what is the current ranked map rotation
+GetCurrentRankedMapsIntent what is the current ranked stage rotation
+GetCurrentRankedMapsIntent what is the current ranked battle rotation
+GetCurrentRankedMapsIntent what is the current ranked battle map rotation
+GetCurrentRankedMapsIntent what is the current ranked battle stage rotation
+GetCurrentRankedMapsIntent get the ranked rotation
+GetCurrentRankedMapsIntent get the ranked map rotation
+GetCurrentRankedMapsIntent get the ranked stage rotation
+GetCurrentRankedMapsIntent get the ranked battle rotation
+GetCurrentRankedMapsIntent get the ranked battle map rotation
+GetCurrentRankedMapsIntent get the ranked battle stage rotation
+GetCurrentRankedMapsIntent get the current ranked rotation
+GetCurrentRankedMapsIntent get the current ranked map rotation
+GetCurrentRankedMapsIntent get the current ranked stage rotation
+GetCurrentRankedMapsIntent get the current ranked battle rotation
+GetCurrentRankedMapsIntent get the current ranked battle map rotation
+GetCurrentRankedMapsIntent get the current ranked battle stage rotation
+GetCurrentRankedMapsIntent the ranked rotation
+GetCurrentRankedMapsIntent the ranked map rotation
+GetCurrentRankedMapsIntent the ranked stage rotation
+GetCurrentRankedMapsIntent the ranked battle rotation
+GetCurrentRankedMapsIntent the ranked battle map rotation
+GetCurrentRankedMapsIntent the ranked battle stage rotation
+GetCurrentRankedMapsIntent the current ranked rotation
+GetCurrentRankedMapsIntent the current ranked map rotation
+GetCurrentRankedMapsIntent the current ranked stage rotation
+GetCurrentRankedMapsIntent the current ranked battle rotation
+GetCurrentRankedMapsIntent the current ranked battle map rotation
+GetCurrentRankedMapsIntent the current ranked battle stage rotation
+GetCurrentRankedMapsIntent what are the ranked maps
+GetCurrentRankedMapsIntent what are the ranked stages
+GetCurrentRankedMapsIntent what are the ranked maps on rotation
+GetCurrentRankedMapsIntent what are the ranked stages on rotation
+GetCurrentRankedMapsIntent what are the ranked battle maps
+GetCurrentRankedMapsIntent what are the ranked battle stages
+GetCurrentRankedMapsIntent what are the ranked battle maps on rotation
+GetCurrentRankedMapsIntent what are the ranked battle stages on rotation
 GetCurrentRankedMapsIntent what are the current ranked maps
 GetCurrentRankedMapsIntent what are the current ranked stages
 GetCurrentRankedMapsIntent what are the current ranked maps on rotation
 GetCurrentRankedMapsIntent what are the current ranked stages on rotation
-GetCurrentRankedMapsIntent what is the current ranked rotation
-GetCurrentRankedMapsIntent what is the current ranked map rotation
-GetCurrentRankedMapsIntent what is the current ranked stage rotation
+GetCurrentRankedMapsIntent what are the current ranked battle maps
+GetCurrentRankedMapsIntent what are the current ranked battle stages
+GetCurrentRankedMapsIntent what are the current ranked battle maps on rotation
+GetCurrentRankedMapsIntent what are the current ranked battle stages on rotation
+GetCurrentRankedMapsIntent get the ranked maps
+GetCurrentRankedMapsIntent get the ranked stages
+GetCurrentRankedMapsIntent get the ranked maps on rotation
+GetCurrentRankedMapsIntent get the ranked stages on rotation
+GetCurrentRankedMapsIntent get the ranked battle maps
+GetCurrentRankedMapsIntent get the ranked battle stages
+GetCurrentRankedMapsIntent get the ranked battle maps on rotation
+GetCurrentRankedMapsIntent get the ranked battle stages on rotation
+GetCurrentRankedMapsIntent get the current ranked maps
+GetCurrentRankedMapsIntent get the current ranked stages
+GetCurrentRankedMapsIntent get the current ranked maps on rotation
+GetCurrentRankedMapsIntent get the current ranked stages on rotation
+GetCurrentRankedMapsIntent get the current ranked battle maps
+GetCurrentRankedMapsIntent get the current ranked battle stages
+GetCurrentRankedMapsIntent get the current ranked battle maps on rotation
+GetCurrentRankedMapsIntent get the current ranked battle stages on rotation
 GetCurrentRankedMapsIntent the ranked maps
 GetCurrentRankedMapsIntent the ranked stages
 GetCurrentRankedMapsIntent the ranked maps on rotation
 GetCurrentRankedMapsIntent the ranked stages on rotation
-GetCurrentRankedMapsIntent the ranked rotation
-GetCurrentRankedMapsIntent the ranked map rotation
-GetCurrentRankedMapsIntent the ranked stage rotation
+GetCurrentRankedMapsIntent the ranked battle maps
+GetCurrentRankedMapsIntent the ranked battle stages
+GetCurrentRankedMapsIntent the ranked battle maps on rotation
+GetCurrentRankedMapsIntent the ranked battle stages on rotation
 GetCurrentRankedMapsIntent the current ranked maps
 GetCurrentRankedMapsIntent the current ranked stages
 GetCurrentRankedMapsIntent the current ranked maps on rotation
 GetCurrentRankedMapsIntent the current ranked stages on rotation
-GetCurrentRankedMapsIntent the current ranked rotation
-GetCurrentRankedMapsIntent the current ranked map rotation
-GetCurrentRankedMapsIntent the current ranked stage rotation
+GetCurrentRankedMapsIntent the current ranked battle maps
+GetCurrentRankedMapsIntent the current ranked battle stages
+GetCurrentRankedMapsIntent the current ranked battle maps on rotation
+GetCurrentRankedMapsIntent the current ranked battle stages on rotation
 
 GetCurrentTurfWarMapsIntent what turf war maps are on
 GetCurrentTurfWarMapsIntent what turf war stages are on
 GetCurrentTurfWarMapsIntent what turf war maps are on rotation
 GetCurrentTurfWarMapsIntent what turf war stages are on rotation
+GetCurrentTurfWarMapsIntent what turf wars maps are on
+GetCurrentTurfWarMapsIntent what turf wars stages are on
+GetCurrentTurfWarMapsIntent what turf wars maps are on rotation
+GetCurrentTurfWarMapsIntent what turf wars stages are on rotation
+GetCurrentTurfWarMapsIntent what regular battle maps are on
+GetCurrentTurfWarMapsIntent what regular battle stages are on
+GetCurrentTurfWarMapsIntent what regular battle maps are on rotation
+GetCurrentTurfWarMapsIntent what regular battle stages are on rotation
 GetCurrentTurfWarMapsIntent what is the turf war rotation
 GetCurrentTurfWarMapsIntent what is the turf war map rotation
 GetCurrentTurfWarMapsIntent what is the turf war stage rotation
+GetCurrentTurfWarMapsIntent what is the current turf war rotation
+GetCurrentTurfWarMapsIntent what is the current turf war map rotation
+GetCurrentTurfWarMapsIntent what is the current turf war stage rotation
+GetCurrentTurfWarMapsIntent what is the turf wars rotation
+GetCurrentTurfWarMapsIntent what is the turf wars map rotation
+GetCurrentTurfWarMapsIntent what is the turf wars stage rotation
+GetCurrentTurfWarMapsIntent what is the current turf wars rotation
+GetCurrentTurfWarMapsIntent what is the current turf wars map rotation
+GetCurrentTurfWarMapsIntent what is the current turf wars stage rotation
+GetCurrentTurfWarMapsIntent what is the regular battle rotation
+GetCurrentTurfWarMapsIntent what is the regular battle map rotation
+GetCurrentTurfWarMapsIntent what is the regular battle stage rotation
+GetCurrentTurfWarMapsIntent what is the current regular battle rotation
+GetCurrentTurfWarMapsIntent what is the current regular battle map rotation
+GetCurrentTurfWarMapsIntent what is the current regular battle stage rotation
+GetCurrentTurfWarMapsIntent what are the turf war maps
+GetCurrentTurfWarMapsIntent what are the turf war stages
+GetCurrentTurfWarMapsIntent what are the turf war maps on rotation
+GetCurrentTurfWarMapsIntent what are the turf war stages on rotation
 GetCurrentTurfWarMapsIntent what are the current turf war maps
 GetCurrentTurfWarMapsIntent what are the current turf war stages
 GetCurrentTurfWarMapsIntent what are the current turf war maps on rotation
 GetCurrentTurfWarMapsIntent what are the current turf war stages on rotation
-GetCurrentTurfWarMapsIntent what is the current turf war rotation
-GetCurrentTurfWarMapsIntent what is the current turf war map rotation
-GetCurrentTurfWarMapsIntent what is the current turf war stage rotation
+GetCurrentTurfWarMapsIntent what are the turf wars maps
+GetCurrentTurfWarMapsIntent what are the turf wars stages
+GetCurrentTurfWarMapsIntent what are the turf wars maps on rotation
+GetCurrentTurfWarMapsIntent what are the turf wars stages on rotation
+GetCurrentTurfWarMapsIntent what are the current turf wars maps
+GetCurrentTurfWarMapsIntent what are the current turf wars stages
+GetCurrentTurfWarMapsIntent what are the current turf wars maps on rotation
+GetCurrentTurfWarMapsIntent what are the current turf wars stages on rotation
+GetCurrentTurfWarMapsIntent what are the regular battle maps
+GetCurrentTurfWarMapsIntent what are the regular battle stages
+GetCurrentTurfWarMapsIntent what are the regular battle maps on rotation
+GetCurrentTurfWarMapsIntent what are the regular battle stages on rotation
+GetCurrentTurfWarMapsIntent what are the current regular battle maps
+GetCurrentTurfWarMapsIntent what are the current regular battle stages
+GetCurrentTurfWarMapsIntent what are the current regular battle maps on rotation
+GetCurrentTurfWarMapsIntent what are the current regular battle stages on rotation
+GetCurrentTurfWarMapsIntent get the turf war maps
+GetCurrentTurfWarMapsIntent get the turf war stages
+GetCurrentTurfWarMapsIntent get the turf war maps on rotation
+GetCurrentTurfWarMapsIntent get the turf war stages on rotation
+GetCurrentTurfWarMapsIntent get the current turf war maps
+GetCurrentTurfWarMapsIntent get the current turf war stages
+GetCurrentTurfWarMapsIntent get the current turf war maps on rotation
+GetCurrentTurfWarMapsIntent get the current turf war stages on rotation
+GetCurrentTurfWarMapsIntent get the turf wars maps
+GetCurrentTurfWarMapsIntent get the turf wars stages
+GetCurrentTurfWarMapsIntent get the turf wars maps on rotation
+GetCurrentTurfWarMapsIntent get the turf wars stages on rotation
+GetCurrentTurfWarMapsIntent get the current turf wars maps
+GetCurrentTurfWarMapsIntent get the current turf wars stages
+GetCurrentTurfWarMapsIntent get the current turf wars maps on rotation
+GetCurrentTurfWarMapsIntent get the current turf wars stages on rotation
+GetCurrentTurfWarMapsIntent get the regular battle maps
+GetCurrentTurfWarMapsIntent get the regular battle stages
+GetCurrentTurfWarMapsIntent get the regular battle maps on rotation
+GetCurrentTurfWarMapsIntent get the regular battle stages on rotation
+GetCurrentTurfWarMapsIntent get the current regular battle maps
+GetCurrentTurfWarMapsIntent get the current regular battle stages
+GetCurrentTurfWarMapsIntent get the current regular battle maps on rotation
+GetCurrentTurfWarMapsIntent get the current regular battle stages on rotation
+GetCurrentTurfWarMapsIntent the turf war maps
+GetCurrentTurfWarMapsIntent the turf war stages
+GetCurrentTurfWarMapsIntent the turf war maps on rotation
+GetCurrentTurfWarMapsIntent the turf war stages on rotation
+GetCurrentTurfWarMapsIntent the current turf war maps
+GetCurrentTurfWarMapsIntent the current turf war stages
+GetCurrentTurfWarMapsIntent the current turf war maps on rotation
+GetCurrentTurfWarMapsIntent the current turf war stages on rotation
+GetCurrentTurfWarMapsIntent the turf wars maps
+GetCurrentTurfWarMapsIntent the turf wars stages
+GetCurrentTurfWarMapsIntent the turf wars maps on rotation
+GetCurrentTurfWarMapsIntent the turf wars stages on rotation
+GetCurrentTurfWarMapsIntent the current turf wars maps
+GetCurrentTurfWarMapsIntent the current turf wars stages
+GetCurrentTurfWarMapsIntent the current turf wars maps on rotation
+GetCurrentTurfWarMapsIntent the current turf wars stages on rotation
+GetCurrentTurfWarMapsIntent the regular battle maps
+GetCurrentTurfWarMapsIntent the regular battle stages
+GetCurrentTurfWarMapsIntent the regular battle maps on rotation
+GetCurrentTurfWarMapsIntent the regular battle stages on rotation
+GetCurrentTurfWarMapsIntent the current regular battle maps
+GetCurrentTurfWarMapsIntent the current regular battle stages
+GetCurrentTurfWarMapsIntent the current regular battle maps on rotation
+GetCurrentTurfWarMapsIntent the current regular battle stages on rotation
 
+GetCurrentRankedModeIntent what mode is on
+GetCurrentRankedModeIntent what mode is on rotation
 GetCurrentRankedModeIntent what ranked mode is on
 GetCurrentRankedModeIntent what ranked mode is on rotation
+GetCurrentRankedModeIntent what ranked battle mode is on
+GetCurrentRankedModeIntent what ranked battle mode is on rotation
+GetCurrentRankedModeIntent what is the mode
+GetCurrentRankedModeIntent what is the mode rotation
+GetCurrentRankedModeIntent what is the mode on rotation
 GetCurrentRankedModeIntent what is the ranked mode
-GetCurrentRankedModeIntent what is the ranked rotation mode
+GetCurrentRankedModeIntent what is the ranked mode rotation
+GetCurrentRankedModeIntent what is the ranked mode on rotation
+GetCurrentRankedModeIntent what is the ranked battle mode
+GetCurrentRankedModeIntent what is the ranked battle mode rotation
+GetCurrentRankedModeIntent what is the ranked battle mode on rotation
+GetCurrentRankedModeIntent what is the current mode
+GetCurrentRankedModeIntent what is the current mode rotation
+GetCurrentRankedModeIntent what is the current mode on rotation
 GetCurrentRankedModeIntent what is the current ranked mode
+GetCurrentRankedModeIntent what is the current ranked mode rotation
 GetCurrentRankedModeIntent what is the current ranked mode on rotation
-GetCurrentRankedModeIntent what is the current ranked rotation mode
+GetCurrentRankedModeIntent what is the current ranked battle mode
+GetCurrentRankedModeIntent what is the current ranked battle mode rotation
+GetCurrentRankedModeIntent what is the current ranked battle mode on rotation
+GetCurrentRankedModeIntent get the mode
+GetCurrentRankedModeIntent get the mode rotation
+GetCurrentRankedModeIntent get the mode on rotation
+GetCurrentRankedModeIntent get the ranked mode
+GetCurrentRankedModeIntent get the ranked mode rotation
+GetCurrentRankedModeIntent get the ranked mode on rotation
+GetCurrentRankedModeIntent get the ranked battle mode
+GetCurrentRankedModeIntent get the ranked battle mode rotation
+GetCurrentRankedModeIntent get the ranked battle mode on rotation
+GetCurrentRankedModeIntent get the current mode
+GetCurrentRankedModeIntent get the current mode rotation
+GetCurrentRankedModeIntent get the current mode on rotation
+GetCurrentRankedModeIntent get the current ranked mode
+GetCurrentRankedModeIntent get the current ranked mode rotation
+GetCurrentRankedModeIntent get the current ranked mode on rotation
+GetCurrentRankedModeIntent get the current ranked battle mode
+GetCurrentRankedModeIntent get the current ranked battle mode rotation
+GetCurrentRankedModeIntent get the current ranked battle mode on rotation
+GetCurrentRankedModeIntent the mode
+GetCurrentRankedModeIntent the mode rotation
+GetCurrentRankedModeIntent the mode on rotation
 GetCurrentRankedModeIntent the ranked mode
+GetCurrentRankedModeIntent the ranked mode rotation
 GetCurrentRankedModeIntent the ranked mode on rotation
-GetCurrentRankedModeIntent the ranked rotation mode
+GetCurrentRankedModeIntent the ranked battle mode
+GetCurrentRankedModeIntent the ranked battle mode rotation
+GetCurrentRankedModeIntent the ranked battle mode on rotation
+GetCurrentRankedModeIntent the current mode
+GetCurrentRankedModeIntent the current mode rotation
+GetCurrentRankedModeIntent the current mode on rotation
 GetCurrentRankedModeIntent the current ranked mode
+GetCurrentRankedModeIntent the current ranked mode rotation
 GetCurrentRankedModeIntent the current ranked mode on rotation
+GetCurrentRankedModeIntent the current ranked battle mode
+GetCurrentRankedModeIntent the current ranked battle mode rotation
+GetCurrentRankedModeIntent the current ranked battle mode on rotation
+GetCurrentRankedModeIntent what is the ranked rotation mode
+GetCurrentRankedModeIntent what is the ranked rotation battle mode
+GetCurrentRankedModeIntent what is the current ranked rotation mode
+GetCurrentRankedModeIntent what is the current ranked rotation battle mode
+GetCurrentRankedModeIntent get the ranked rotation mode
+GetCurrentRankedModeIntent get the ranked rotation battle mode
+GetCurrentRankedModeIntent get the current ranked rotation mode
+GetCurrentRankedModeIntent get the current ranked rotation battle mode
+GetCurrentRankedModeIntent the ranked rotation mode
+GetCurrentRankedModeIntent the ranked rotation battle mode
 GetCurrentRankedModeIntent the current ranked rotation mode
-
+GetCurrentRankedModeIntent the current ranked rotation battle mode
 
 GetUpcomingMapsIntent what maps will be on
-GetUpcomingMapsIntent what stages will be on
 GetUpcomingMapsIntent what maps will be on rotation
+GetUpcomingMapsIntent what maps are going to be on
+GetUpcomingMapsIntent what maps are going to be on rotation
+GetUpcomingMapsIntent what stages will be on
 GetUpcomingMapsIntent what stages will be on rotation
-GetUpcomingMapsIntent what will the rotation be
-GetUpcomingMapsIntent what will the map rotation be
-GetUpcomingMapsIntent what will the stage rotation be
-GetUpcomingMapsIntent what are the next maps
-GetUpcomingMapsIntent what are the next stages
-GetUpcomingMapsIntent what maps are on next
-GetUpcomingMapsIntent what stages are on next
-GetUpcomingMapsIntent what maps are on rotation next
-GetUpcomingMapsIntent what stages are on rotation next
+GetUpcomingMapsIntent what stages are going to be on
+GetUpcomingMapsIntent what stages are going to be on rotation
 GetUpcomingMapsIntent what is the next rotation
 GetUpcomingMapsIntent what is the next map rotation
 GetUpcomingMapsIntent what is the next stage rotation
-GetUpcomingMapsIntent the next maps
-GetUpcomingMapsIntent the next stages
-GetUpcomingMapsIntent the next maps on rotation
-GetUpcomingMapsIntent the next stages on rotation
+GetUpcomingMapsIntent what is the upcoming rotation
+GetUpcomingMapsIntent what is the upcoming map rotation
+GetUpcomingMapsIntent what is the upcoming stage rotation
+GetUpcomingMapsIntent what is the future rotation
+GetUpcomingMapsIntent what is the future map rotation
+GetUpcomingMapsIntent what is the future stage rotation
+GetUpcomingMapsIntent get the next rotation
+GetUpcomingMapsIntent get the next map rotation
+GetUpcomingMapsIntent get the next stage rotation
+GetUpcomingMapsIntent get the upcoming rotation
+GetUpcomingMapsIntent get the upcoming map rotation
+GetUpcomingMapsIntent get the upcoming stage rotation
+GetUpcomingMapsIntent get the future rotation
+GetUpcomingMapsIntent get the future map rotation
+GetUpcomingMapsIntent get the future stage rotation
 GetUpcomingMapsIntent the next rotation
 GetUpcomingMapsIntent the next map rotation
 GetUpcomingMapsIntent the next stage rotation
-GetUpcomingMapsIntent the maps on next
-GetUpcomingMapsIntent the stages on next
-GetUpcomingMapsIntent the maps on rotation next
-GetUpcomingMapsIntent the stages on rotation next
-GetUpcomingMapsIntent the rotation on next
-GetUpcomingMapsIntent the map rotation on next
-GetUpcomingMapsIntent the stage rotation on next
+GetUpcomingMapsIntent the upcoming rotation
+GetUpcomingMapsIntent the upcoming map rotation
+GetUpcomingMapsIntent the upcoming stage rotation
+GetUpcomingMapsIntent the future rotation
+GetUpcomingMapsIntent the future map rotation
+GetUpcomingMapsIntent the future stage rotation
+GetUpcomingMapsIntent what are the next maps
+GetUpcomingMapsIntent what are the next maps on rotation
+GetUpcomingMapsIntent what are the next stages
+GetUpcomingMapsIntent what are the next stages on rotation
+GetUpcomingMapsIntent what are the upcoming maps
+GetUpcomingMapsIntent what are the upcoming maps on rotation
+GetUpcomingMapsIntent what are the upcoming stages
+GetUpcomingMapsIntent what are the upcoming stages on rotation
+GetUpcomingMapsIntent what are the future maps
+GetUpcomingMapsIntent what are the future maps on rotation
+GetUpcomingMapsIntent what are the future stages
+GetUpcomingMapsIntent what are the future stages on rotation
+GetUpcomingMapsIntent get the next maps
+GetUpcomingMapsIntent get the next maps on rotation
+GetUpcomingMapsIntent get the next stages
+GetUpcomingMapsIntent get the next stages on rotation
+GetUpcomingMapsIntent get the upcoming maps
+GetUpcomingMapsIntent get the upcoming maps on rotation
+GetUpcomingMapsIntent get the upcoming stages
+GetUpcomingMapsIntent get the upcoming stages on rotation
+GetUpcomingMapsIntent get the future maps
+GetUpcomingMapsIntent get the future maps on rotation
+GetUpcomingMapsIntent get the future stages
+GetUpcomingMapsIntent get the future stages on rotation
+GetUpcomingMapsIntent the next maps
+GetUpcomingMapsIntent the next maps on rotation
+GetUpcomingMapsIntent the next stages
+GetUpcomingMapsIntent the next stages on rotation
+GetUpcomingMapsIntent the upcoming maps
+GetUpcomingMapsIntent the upcoming maps on rotation
+GetUpcomingMapsIntent the upcoming stages
+GetUpcomingMapsIntent the upcoming stages on rotation
+GetUpcomingMapsIntent the future maps
+GetUpcomingMapsIntent the future maps on rotation
+GetUpcomingMapsIntent the future stages
+GetUpcomingMapsIntent the future stages on rotation
+GetUpcomingMapsIntent what'll be on
+GetUpcomingMapsIntent what'll be on rotation
+GetUpcomingMapsIntent what will be on
+GetUpcomingMapsIntent what will be on rotation
 
 GetUpcomingRankedMapsIntent what ranked maps will be on
-GetUpcomingRankedMapsIntent what ranked stages will be on
 GetUpcomingRankedMapsIntent what ranked maps will be on rotation
+GetUpcomingRankedMapsIntent what ranked maps are going to be on
+GetUpcomingRankedMapsIntent what ranked maps are going to be on rotation
+GetUpcomingRankedMapsIntent what ranked stages will be on
 GetUpcomingRankedMapsIntent what ranked stages will be on rotation
-GetUpcomingRankedMapsIntent what will the ranked rotation be
-GetUpcomingRankedMapsIntent what will the ranked map rotation be
-GetUpcomingRankedMapsIntent what will the ranked stage rotation be
-GetUpcomingRankedMapsIntent what are the next ranked maps
-GetUpcomingRankedMapsIntent what are the next ranked stages
-GetUpcomingRankedMapsIntent what ranked maps are on next
-GetUpcomingRankedMapsIntent what ranked stages are on next
-GetUpcomingRankedMapsIntent what ranked maps are on rotation next
-GetUpcomingRankedMapsIntent what ranked stages are on rotation next
+GetUpcomingRankedMapsIntent what ranked stages are going to be on
+GetUpcomingRankedMapsIntent what ranked stages are going to be on rotation
+GetUpcomingRankedMapsIntent what ranked battle maps will be on
+GetUpcomingRankedMapsIntent what ranked battle maps will be on rotation
+GetUpcomingRankedMapsIntent what ranked battle maps are going to be on
+GetUpcomingRankedMapsIntent what ranked battle maps are going to be on rotation
+GetUpcomingRankedMapsIntent what ranked battle stages will be on
+GetUpcomingRankedMapsIntent what ranked battle stages will be on rotation
+GetUpcomingRankedMapsIntent what ranked battle stages are going to be on
+GetUpcomingRankedMapsIntent what ranked battle stages are going to be on rotation
 GetUpcomingRankedMapsIntent what is the next ranked rotation
 GetUpcomingRankedMapsIntent what is the next ranked map rotation
 GetUpcomingRankedMapsIntent what is the next ranked stage rotation
-GetUpcomingRankedMapsIntent the next ranked maps
-GetUpcomingRankedMapsIntent the next ranked stages
-GetUpcomingRankedMapsIntent the next ranked maps on rotation
-GetUpcomingRankedMapsIntent the next ranked stages on rotation
+GetUpcomingRankedMapsIntent what is the next ranked battle rotation
+GetUpcomingRankedMapsIntent what is the next ranked battle map rotation
+GetUpcomingRankedMapsIntent what is the next ranked battle stage rotation
+GetUpcomingRankedMapsIntent what is the upcoming ranked rotation
+GetUpcomingRankedMapsIntent what is the upcoming ranked map rotation
+GetUpcomingRankedMapsIntent what is the upcoming ranked stage rotation
+GetUpcomingRankedMapsIntent what is the upcoming ranked battle rotation
+GetUpcomingRankedMapsIntent what is the upcoming ranked battle map rotation
+GetUpcomingRankedMapsIntent what is the upcoming ranked battle stage rotation
+GetUpcomingRankedMapsIntent what is the future ranked rotation
+GetUpcomingRankedMapsIntent what is the future ranked map rotation
+GetUpcomingRankedMapsIntent what is the future ranked stage rotation
+GetUpcomingRankedMapsIntent what is the future ranked battle rotation
+GetUpcomingRankedMapsIntent what is the future ranked battle map rotation
+GetUpcomingRankedMapsIntent what is the future ranked battle stage rotation
+GetUpcomingRankedMapsIntent get the next ranked rotation
+GetUpcomingRankedMapsIntent get the next ranked map rotation
+GetUpcomingRankedMapsIntent get the next ranked stage rotation
+GetUpcomingRankedMapsIntent get the next ranked battle rotation
+GetUpcomingRankedMapsIntent get the next ranked battle map rotation
+GetUpcomingRankedMapsIntent get the next ranked battle stage rotation
+GetUpcomingRankedMapsIntent get the upcoming ranked rotation
+GetUpcomingRankedMapsIntent get the upcoming ranked map rotation
+GetUpcomingRankedMapsIntent get the upcoming ranked stage rotation
+GetUpcomingRankedMapsIntent get the upcoming ranked battle rotation
+GetUpcomingRankedMapsIntent get the upcoming ranked battle map rotation
+GetUpcomingRankedMapsIntent get the upcoming ranked battle stage rotation
+GetUpcomingRankedMapsIntent get the future ranked rotation
+GetUpcomingRankedMapsIntent get the future ranked map rotation
+GetUpcomingRankedMapsIntent get the future ranked stage rotation
+GetUpcomingRankedMapsIntent get the future ranked battle rotation
+GetUpcomingRankedMapsIntent get the future ranked battle map rotation
+GetUpcomingRankedMapsIntent get the future ranked battle stage rotation
 GetUpcomingRankedMapsIntent the next ranked rotation
 GetUpcomingRankedMapsIntent the next ranked map rotation
 GetUpcomingRankedMapsIntent the next ranked stage rotation
-GetUpcomingRankedMapsIntent the ranked maps on next
-GetUpcomingRankedMapsIntent the ranked stages on next
-GetUpcomingRankedMapsIntent the ranked maps on rotation next
-GetUpcomingRankedMapsIntent the ranked stages on rotation next
-GetUpcomingRankedMapsIntent the ranked rotation on next
-GetUpcomingRankedMapsIntent the ranked map rotation on next
-GetUpcomingRankedMapsIntent the ranked stage rotation on next
+GetUpcomingRankedMapsIntent the next ranked battle rotation
+GetUpcomingRankedMapsIntent the next ranked battle map rotation
+GetUpcomingRankedMapsIntent the next ranked battle stage rotation
+GetUpcomingRankedMapsIntent the upcoming ranked rotation
+GetUpcomingRankedMapsIntent the upcoming ranked map rotation
+GetUpcomingRankedMapsIntent the upcoming ranked stage rotation
+GetUpcomingRankedMapsIntent the upcoming ranked battle rotation
+GetUpcomingRankedMapsIntent the upcoming ranked battle map rotation
+GetUpcomingRankedMapsIntent the upcoming ranked battle stage rotation
+GetUpcomingRankedMapsIntent the future ranked rotation
+GetUpcomingRankedMapsIntent the future ranked map rotation
+GetUpcomingRankedMapsIntent the future ranked stage rotation
+GetUpcomingRankedMapsIntent the future ranked battle rotation
+GetUpcomingRankedMapsIntent the future ranked battle map rotation
+GetUpcomingRankedMapsIntent the future ranked battle stage rotation
+GetUpcomingRankedMapsIntent what are the next ranked maps
+GetUpcomingRankedMapsIntent what are the next ranked maps on rotation
+GetUpcomingRankedMapsIntent what are the next ranked stages
+GetUpcomingRankedMapsIntent what are the next ranked stages on rotation
+GetUpcomingRankedMapsIntent what are the next ranked battle maps
+GetUpcomingRankedMapsIntent what are the next ranked battle maps on rotation
+GetUpcomingRankedMapsIntent what are the next ranked battle stages
+GetUpcomingRankedMapsIntent what are the next ranked battle stages on rotation
+GetUpcomingRankedMapsIntent what are the upcoming ranked maps
+GetUpcomingRankedMapsIntent what are the upcoming ranked maps on rotation
+GetUpcomingRankedMapsIntent what are the upcoming ranked stages
+GetUpcomingRankedMapsIntent what are the upcoming ranked stages on rotation
+GetUpcomingRankedMapsIntent what are the upcoming ranked battle maps
+GetUpcomingRankedMapsIntent what are the upcoming ranked battle maps on rotation
+GetUpcomingRankedMapsIntent what are the upcoming ranked battle stages
+GetUpcomingRankedMapsIntent what are the upcoming ranked battle stages on rotation
+GetUpcomingRankedMapsIntent what are the future ranked maps
+GetUpcomingRankedMapsIntent what are the future ranked maps on rotation
+GetUpcomingRankedMapsIntent what are the future ranked stages
+GetUpcomingRankedMapsIntent what are the future ranked stages on rotation
+GetUpcomingRankedMapsIntent what are the future ranked battle maps
+GetUpcomingRankedMapsIntent what are the future ranked battle maps on rotation
+GetUpcomingRankedMapsIntent what are the future ranked battle stages
+GetUpcomingRankedMapsIntent what are the future ranked battle stages on rotation
+GetUpcomingRankedMapsIntent get the next ranked maps
+GetUpcomingRankedMapsIntent get the next ranked maps on rotation
+GetUpcomingRankedMapsIntent get the next ranked stages
+GetUpcomingRankedMapsIntent get the next ranked stages on rotation
+GetUpcomingRankedMapsIntent get the next ranked battle maps
+GetUpcomingRankedMapsIntent get the next ranked battle maps on rotation
+GetUpcomingRankedMapsIntent get the next ranked battle stages
+GetUpcomingRankedMapsIntent get the next ranked battle stages on rotation
+GetUpcomingRankedMapsIntent get the upcoming ranked maps
+GetUpcomingRankedMapsIntent get the upcoming ranked maps on rotation
+GetUpcomingRankedMapsIntent get the upcoming ranked stages
+GetUpcomingRankedMapsIntent get the upcoming ranked stages on rotation
+GetUpcomingRankedMapsIntent get the upcoming ranked battle maps
+GetUpcomingRankedMapsIntent get the upcoming ranked battle maps on rotation
+GetUpcomingRankedMapsIntent get the upcoming ranked battle stages
+GetUpcomingRankedMapsIntent get the upcoming ranked battle stages on rotation
+GetUpcomingRankedMapsIntent get the future ranked maps
+GetUpcomingRankedMapsIntent get the future ranked maps on rotation
+GetUpcomingRankedMapsIntent get the future ranked stages
+GetUpcomingRankedMapsIntent get the future ranked stages on rotation
+GetUpcomingRankedMapsIntent get the future ranked battle maps
+GetUpcomingRankedMapsIntent get the future ranked battle maps on rotation
+GetUpcomingRankedMapsIntent get the future ranked battle stages
+GetUpcomingRankedMapsIntent get the future ranked battle stages on rotation
+GetUpcomingRankedMapsIntent the next ranked maps
+GetUpcomingRankedMapsIntent the next ranked maps on rotation
+GetUpcomingRankedMapsIntent the next ranked stages
+GetUpcomingRankedMapsIntent the next ranked stages on rotation
+GetUpcomingRankedMapsIntent the next ranked battle maps
+GetUpcomingRankedMapsIntent the next ranked battle maps on rotation
+GetUpcomingRankedMapsIntent the next ranked battle stages
+GetUpcomingRankedMapsIntent the next ranked battle stages on rotation
+GetUpcomingRankedMapsIntent the upcoming ranked maps
+GetUpcomingRankedMapsIntent the upcoming ranked maps on rotation
+GetUpcomingRankedMapsIntent the upcoming ranked stages
+GetUpcomingRankedMapsIntent the upcoming ranked stages on rotation
+GetUpcomingRankedMapsIntent the upcoming ranked battle maps
+GetUpcomingRankedMapsIntent the upcoming ranked battle maps on rotation
+GetUpcomingRankedMapsIntent the upcoming ranked battle stages
+GetUpcomingRankedMapsIntent the upcoming ranked battle stages on rotation
+GetUpcomingRankedMapsIntent the future ranked maps
+GetUpcomingRankedMapsIntent the future ranked maps on rotation
+GetUpcomingRankedMapsIntent the future ranked stages
+GetUpcomingRankedMapsIntent the future ranked stages on rotation
+GetUpcomingRankedMapsIntent the future ranked battle maps
+GetUpcomingRankedMapsIntent the future ranked battle maps on rotation
+GetUpcomingRankedMapsIntent the future ranked battle stages
+GetUpcomingRankedMapsIntent the future ranked battle stages on rotation
 
 GetUpcomingTurfWarMapsIntent what turf war maps will be on
-GetUpcomingTurfWarMapsIntent what turf war stages will be on
 GetUpcomingTurfWarMapsIntent what turf war maps will be on rotation
+GetUpcomingTurfWarMapsIntent what turf war maps are going to be on
+GetUpcomingTurfWarMapsIntent what turf war maps are going to be on rotation
+GetUpcomingTurfWarMapsIntent what turf war stages will be on
 GetUpcomingTurfWarMapsIntent what turf war stages will be on rotation
-GetUpcomingTurfWarMapsIntent what will the turf war rotation be
-GetUpcomingTurfWarMapsIntent what will the turf war map rotation be
-GetUpcomingTurfWarMapsIntent what will the turf war stage rotation be
-GetUpcomingTurfWarMapsIntent what are the next turf war maps
-GetUpcomingTurfWarMapsIntent what are the next turf war stages
-GetUpcomingTurfWarMapsIntent what turf war maps are on next
-GetUpcomingTurfWarMapsIntent what turf war stages are on next
-GetUpcomingTurfWarMapsIntent what turf war maps are on rotation next
-GetUpcomingTurfWarMapsIntent what turf war stages are on rotation next
+GetUpcomingTurfWarMapsIntent what turf war stages are going to be on
+GetUpcomingTurfWarMapsIntent what turf war stages are going to be on rotation
+GetUpcomingTurfWarMapsIntent what turf wars maps will be on
+GetUpcomingTurfWarMapsIntent what turf wars maps will be on rotation
+GetUpcomingTurfWarMapsIntent what turf wars maps are going to be on
+GetUpcomingTurfWarMapsIntent what turf wars maps are going to be on rotation
+GetUpcomingTurfWarMapsIntent what turf wars stages will be on
+GetUpcomingTurfWarMapsIntent what turf wars stages will be on rotation
+GetUpcomingTurfWarMapsIntent what turf wars stages are going to be on
+GetUpcomingTurfWarMapsIntent what turf wars stages are going to be on rotation
+GetUpcomingTurfWarMapsIntent what regular battle maps will be on
+GetUpcomingTurfWarMapsIntent what regular battle maps will be on rotation
+GetUpcomingTurfWarMapsIntent what regular battle maps are going to be on
+GetUpcomingTurfWarMapsIntent what regular battle maps are going to be on rotation
+GetUpcomingTurfWarMapsIntent what regular battle stages will be on
+GetUpcomingTurfWarMapsIntent what regular battle stages will be on rotation
+GetUpcomingTurfWarMapsIntent what regular battle stages are going to be on
+GetUpcomingTurfWarMapsIntent what regular battle stages are going to be on rotation
 GetUpcomingTurfWarMapsIntent what is the next turf war rotation
 GetUpcomingTurfWarMapsIntent what is the next turf war map rotation
 GetUpcomingTurfWarMapsIntent what is the next turf war stage rotation
-GetUpcomingTurfWarMapsIntent the next turf war maps
-GetUpcomingTurfWarMapsIntent the next turf war stages
-GetUpcomingTurfWarMapsIntent the next turf war maps on rotation
-GetUpcomingTurfWarMapsIntent the next turf war stages on rotation
+GetUpcomingTurfWarMapsIntent what is the next turf wars rotation
+GetUpcomingTurfWarMapsIntent what is the next turf wars map rotation
+GetUpcomingTurfWarMapsIntent what is the next turf wars stage rotation
+GetUpcomingTurfWarMapsIntent what is the next regular battle rotation
+GetUpcomingTurfWarMapsIntent what is the next regular battle map rotation
+GetUpcomingTurfWarMapsIntent what is the next regular battle stage rotation
+GetUpcomingTurfWarMapsIntent what is the upcoming turf war rotation
+GetUpcomingTurfWarMapsIntent what is the upcoming turf war map rotation
+GetUpcomingTurfWarMapsIntent what is the upcoming turf war stage rotation
+GetUpcomingTurfWarMapsIntent what is the upcoming turf wars rotation
+GetUpcomingTurfWarMapsIntent what is the upcoming turf wars map rotation
+GetUpcomingTurfWarMapsIntent what is the upcoming turf wars stage rotation
+GetUpcomingTurfWarMapsIntent what is the upcoming regular battle rotation
+GetUpcomingTurfWarMapsIntent what is the upcoming regular battle map rotation
+GetUpcomingTurfWarMapsIntent what is the upcoming regular battle stage rotation
+GetUpcomingTurfWarMapsIntent what is the future turf war rotation
+GetUpcomingTurfWarMapsIntent what is the future turf war map rotation
+GetUpcomingTurfWarMapsIntent what is the future turf war stage rotation
+GetUpcomingTurfWarMapsIntent what is the future turf wars rotation
+GetUpcomingTurfWarMapsIntent what is the future turf wars map rotation
+GetUpcomingTurfWarMapsIntent what is the future turf wars stage rotation
+GetUpcomingTurfWarMapsIntent what is the future regular battle rotation
+GetUpcomingTurfWarMapsIntent what is the future regular battle map rotation
+GetUpcomingTurfWarMapsIntent what is the future regular battle stage rotation
+GetUpcomingTurfWarMapsIntent get the next turf war rotation
+GetUpcomingTurfWarMapsIntent get the next turf war map rotation
+GetUpcomingTurfWarMapsIntent get the next turf war stage rotation
+GetUpcomingTurfWarMapsIntent get the next turf wars rotation
+GetUpcomingTurfWarMapsIntent get the next turf wars map rotation
+GetUpcomingTurfWarMapsIntent get the next turf wars stage rotation
+GetUpcomingTurfWarMapsIntent get the next regular battle rotation
+GetUpcomingTurfWarMapsIntent get the next regular battle map rotation
+GetUpcomingTurfWarMapsIntent get the next regular battle stage rotation
+GetUpcomingTurfWarMapsIntent get the upcoming turf war rotation
+GetUpcomingTurfWarMapsIntent get the upcoming turf war map rotation
+GetUpcomingTurfWarMapsIntent get the upcoming turf war stage rotation
+GetUpcomingTurfWarMapsIntent get the upcoming turf wars rotation
+GetUpcomingTurfWarMapsIntent get the upcoming turf wars map rotation
+GetUpcomingTurfWarMapsIntent get the upcoming turf wars stage rotation
+GetUpcomingTurfWarMapsIntent get the upcoming regular battle rotation
+GetUpcomingTurfWarMapsIntent get the upcoming regular battle map rotation
+GetUpcomingTurfWarMapsIntent get the upcoming regular battle stage rotation
+GetUpcomingTurfWarMapsIntent get the future turf war rotation
+GetUpcomingTurfWarMapsIntent get the future turf war map rotation
+GetUpcomingTurfWarMapsIntent get the future turf war stage rotation
+GetUpcomingTurfWarMapsIntent get the future turf wars rotation
+GetUpcomingTurfWarMapsIntent get the future turf wars map rotation
+GetUpcomingTurfWarMapsIntent get the future turf wars stage rotation
+GetUpcomingTurfWarMapsIntent get the future regular battle rotation
+GetUpcomingTurfWarMapsIntent get the future regular battle map rotation
+GetUpcomingTurfWarMapsIntent get the future regular battle stage rotation
 GetUpcomingTurfWarMapsIntent the next turf war rotation
 GetUpcomingTurfWarMapsIntent the next turf war map rotation
 GetUpcomingTurfWarMapsIntent the next turf war stage rotation
-GetUpcomingTurfWarMapsIntent the turf war maps on next
-GetUpcomingTurfWarMapsIntent the turf war stages on next
-GetUpcomingTurfWarMapsIntent the turf war maps on rotation next
-GetUpcomingTurfWarMapsIntent the turf war stages on rotation next
-GetUpcomingTurfWarMapsIntent the turf war rotation on next
-GetUpcomingTurfWarMapsIntent the turf war map rotation on next
-GetUpcomingTurfWarMapsIntent the turf war stage rotation on next
+GetUpcomingTurfWarMapsIntent the next turf wars rotation
+GetUpcomingTurfWarMapsIntent the next turf wars map rotation
+GetUpcomingTurfWarMapsIntent the next turf wars stage rotation
+GetUpcomingTurfWarMapsIntent the next regular battle rotation
+GetUpcomingTurfWarMapsIntent the next regular battle map rotation
+GetUpcomingTurfWarMapsIntent the next regular battle stage rotation
+GetUpcomingTurfWarMapsIntent the upcoming turf war rotation
+GetUpcomingTurfWarMapsIntent the upcoming turf war map rotation
+GetUpcomingTurfWarMapsIntent the upcoming turf war stage rotation
+GetUpcomingTurfWarMapsIntent the upcoming turf wars rotation
+GetUpcomingTurfWarMapsIntent the upcoming turf wars map rotation
+GetUpcomingTurfWarMapsIntent the upcoming turf wars stage rotation
+GetUpcomingTurfWarMapsIntent the upcoming regular battle rotation
+GetUpcomingTurfWarMapsIntent the upcoming regular battle map rotation
+GetUpcomingTurfWarMapsIntent the upcoming regular battle stage rotation
+GetUpcomingTurfWarMapsIntent the future turf war rotation
+GetUpcomingTurfWarMapsIntent the future turf war map rotation
+GetUpcomingTurfWarMapsIntent the future turf war stage rotation
+GetUpcomingTurfWarMapsIntent the future turf wars rotation
+GetUpcomingTurfWarMapsIntent the future turf wars map rotation
+GetUpcomingTurfWarMapsIntent the future turf wars stage rotation
+GetUpcomingTurfWarMapsIntent the future regular battle rotation
+GetUpcomingTurfWarMapsIntent the future regular battle map rotation
+GetUpcomingTurfWarMapsIntent the future regular battle stage rotation
+GetUpcomingTurfWarMapsIntent what are the next turf war maps
+GetUpcomingTurfWarMapsIntent what are the next turf war maps on rotation
+GetUpcomingTurfWarMapsIntent what are the next turf war stages
+GetUpcomingTurfWarMapsIntent what are the next turf war stages on rotation
+GetUpcomingTurfWarMapsIntent what are the next turf wars maps
+GetUpcomingTurfWarMapsIntent what are the next turf wars maps on rotation
+GetUpcomingTurfWarMapsIntent what are the next turf wars stages
+GetUpcomingTurfWarMapsIntent what are the next turf wars stages on rotation
+GetUpcomingTurfWarMapsIntent what are the next regular battle maps
+GetUpcomingTurfWarMapsIntent what are the next regular battle maps on rotation
+GetUpcomingTurfWarMapsIntent what are the next regular battle stages
+GetUpcomingTurfWarMapsIntent what are the next regular battle stages on rotation
+GetUpcomingTurfWarMapsIntent what are the upcoming turf war maps
+GetUpcomingTurfWarMapsIntent what are the upcoming turf war maps on rotation
+GetUpcomingTurfWarMapsIntent what are the upcoming turf war stages
+GetUpcomingTurfWarMapsIntent what are the upcoming turf war stages on rotation
+GetUpcomingTurfWarMapsIntent what are the upcoming turf wars maps
+GetUpcomingTurfWarMapsIntent what are the upcoming turf wars maps on rotation
+GetUpcomingTurfWarMapsIntent what are the upcoming turf wars stages
+GetUpcomingTurfWarMapsIntent what are the upcoming turf wars stages on rotation
+GetUpcomingTurfWarMapsIntent what are the upcoming regular battle maps
+GetUpcomingTurfWarMapsIntent what are the upcoming regular battle maps on rotation
+GetUpcomingTurfWarMapsIntent what are the upcoming regular battle stages
+GetUpcomingTurfWarMapsIntent what are the upcoming regular battle stages on rotation
+GetUpcomingTurfWarMapsIntent what are the future turf war maps
+GetUpcomingTurfWarMapsIntent what are the future turf war maps on rotation
+GetUpcomingTurfWarMapsIntent what are the future turf war stages
+GetUpcomingTurfWarMapsIntent what are the future turf war stages on rotation
+GetUpcomingTurfWarMapsIntent what are the future turf wars maps
+GetUpcomingTurfWarMapsIntent what are the future turf wars maps on rotation
+GetUpcomingTurfWarMapsIntent what are the future turf wars stages
+GetUpcomingTurfWarMapsIntent what are the future turf wars stages on rotation
+GetUpcomingTurfWarMapsIntent what are the future regular battle maps
+GetUpcomingTurfWarMapsIntent what are the future regular battle maps on rotation
+GetUpcomingTurfWarMapsIntent what are the future regular battle stages
+GetUpcomingTurfWarMapsIntent what are the future regular battle stages on rotation
+GetUpcomingTurfWarMapsIntent get the next turf war maps
+GetUpcomingTurfWarMapsIntent get the next turf war maps on rotation
+GetUpcomingTurfWarMapsIntent get the next turf war stages
+GetUpcomingTurfWarMapsIntent get the next turf war stages on rotation
+GetUpcomingTurfWarMapsIntent get the next turf wars maps
+GetUpcomingTurfWarMapsIntent get the next turf wars maps on rotation
+GetUpcomingTurfWarMapsIntent get the next turf wars stages
+GetUpcomingTurfWarMapsIntent get the next turf wars stages on rotation
+GetUpcomingTurfWarMapsIntent get the next regular battle maps
+GetUpcomingTurfWarMapsIntent get the next regular battle maps on rotation
+GetUpcomingTurfWarMapsIntent get the next regular battle stages
+GetUpcomingTurfWarMapsIntent get the next regular battle stages on rotation
+GetUpcomingTurfWarMapsIntent get the upcoming turf war maps
+GetUpcomingTurfWarMapsIntent get the upcoming turf war maps on rotation
+GetUpcomingTurfWarMapsIntent get the upcoming turf war stages
+GetUpcomingTurfWarMapsIntent get the upcoming turf war stages on rotation
+GetUpcomingTurfWarMapsIntent get the upcoming turf wars maps
+GetUpcomingTurfWarMapsIntent get the upcoming turf wars maps on rotation
+GetUpcomingTurfWarMapsIntent get the upcoming turf wars stages
+GetUpcomingTurfWarMapsIntent get the upcoming turf wars stages on rotation
+GetUpcomingTurfWarMapsIntent get the upcoming regular battle maps
+GetUpcomingTurfWarMapsIntent get the upcoming regular battle maps on rotation
+GetUpcomingTurfWarMapsIntent get the upcoming regular battle stages
+GetUpcomingTurfWarMapsIntent get the upcoming regular battle stages on rotation
+GetUpcomingTurfWarMapsIntent get the future turf war maps
+GetUpcomingTurfWarMapsIntent get the future turf war maps on rotation
+GetUpcomingTurfWarMapsIntent get the future turf war stages
+GetUpcomingTurfWarMapsIntent get the future turf war stages on rotation
+GetUpcomingTurfWarMapsIntent get the future turf wars maps
+GetUpcomingTurfWarMapsIntent get the future turf wars maps on rotation
+GetUpcomingTurfWarMapsIntent get the future turf wars stages
+GetUpcomingTurfWarMapsIntent get the future turf wars stages on rotation
+GetUpcomingTurfWarMapsIntent get the future regular battle maps
+GetUpcomingTurfWarMapsIntent get the future regular battle maps on rotation
+GetUpcomingTurfWarMapsIntent get the future regular battle stages
+GetUpcomingTurfWarMapsIntent get the future regular battle stages on rotation
+GetUpcomingTurfWarMapsIntent the next turf war maps
+GetUpcomingTurfWarMapsIntent the next turf war maps on rotation
+GetUpcomingTurfWarMapsIntent the next turf war stages
+GetUpcomingTurfWarMapsIntent the next turf war stages on rotation
+GetUpcomingTurfWarMapsIntent the next turf wars maps
+GetUpcomingTurfWarMapsIntent the next turf wars maps on rotation
+GetUpcomingTurfWarMapsIntent the next turf wars stages
+GetUpcomingTurfWarMapsIntent the next turf wars stages on rotation
+GetUpcomingTurfWarMapsIntent the next regular battle maps
+GetUpcomingTurfWarMapsIntent the next regular battle maps on rotation
+GetUpcomingTurfWarMapsIntent the next regular battle stages
+GetUpcomingTurfWarMapsIntent the next regular battle stages on rotation
+GetUpcomingTurfWarMapsIntent the upcoming turf war maps
+GetUpcomingTurfWarMapsIntent the upcoming turf war maps on rotation
+GetUpcomingTurfWarMapsIntent the upcoming turf war stages
+GetUpcomingTurfWarMapsIntent the upcoming turf war stages on rotation
+GetUpcomingTurfWarMapsIntent the upcoming turf wars maps
+GetUpcomingTurfWarMapsIntent the upcoming turf wars maps on rotation
+GetUpcomingTurfWarMapsIntent the upcoming turf wars stages
+GetUpcomingTurfWarMapsIntent the upcoming turf wars stages on rotation
+GetUpcomingTurfWarMapsIntent the upcoming regular battle maps
+GetUpcomingTurfWarMapsIntent the upcoming regular battle maps on rotation
+GetUpcomingTurfWarMapsIntent the upcoming regular battle stages
+GetUpcomingTurfWarMapsIntent the upcoming regular battle stages on rotation
+GetUpcomingTurfWarMapsIntent the future turf war maps
+GetUpcomingTurfWarMapsIntent the future turf war maps on rotation
+GetUpcomingTurfWarMapsIntent the future turf war stages
+GetUpcomingTurfWarMapsIntent the future turf war stages on rotation
+GetUpcomingTurfWarMapsIntent the future turf wars maps
+GetUpcomingTurfWarMapsIntent the future turf wars maps on rotation
+GetUpcomingTurfWarMapsIntent the future turf wars stages
+GetUpcomingTurfWarMapsIntent the future turf wars stages on rotation
+GetUpcomingTurfWarMapsIntent the future regular battle maps
+GetUpcomingTurfWarMapsIntent the future regular battle maps on rotation
+GetUpcomingTurfWarMapsIntent the future regular battle stages
+GetUpcomingTurfWarMapsIntent the future regular battle stages on rotation
 
+GetUpcomingRankedModeIntent what mode will be on
+GetUpcomingRankedModeIntent what mode will be on rotation
+GetUpcomingRankedModeIntent what mode will be on rotation next
+GetUpcomingRankedModeIntent what mode will be on next
+GetUpcomingRankedModeIntent what mode will be on next rotation
 GetUpcomingRankedModeIntent what ranked mode will be on
 GetUpcomingRankedModeIntent what ranked mode will be on rotation
+GetUpcomingRankedModeIntent what ranked mode will be on rotation next
+GetUpcomingRankedModeIntent what ranked mode will be on next
+GetUpcomingRankedModeIntent what ranked mode will be on next rotation
+GetUpcomingRankedModeIntent what ranked battle mode will be on
+GetUpcomingRankedModeIntent what ranked battle mode will be on rotation
+GetUpcomingRankedModeIntent what ranked battle mode will be on rotation next
+GetUpcomingRankedModeIntent what ranked battle mode will be on next
+GetUpcomingRankedModeIntent what ranked battle mode will be on next rotation
+GetUpcomingRankedModeIntent what is the next mode
+GetUpcomingRankedModeIntent what is the next mode rotation
+GetUpcomingRankedModeIntent what is the next mode on rotation
+GetUpcomingRankedModeIntent what is the next ranked mode
+GetUpcomingRankedModeIntent what is the next ranked mode rotation
+GetUpcomingRankedModeIntent what is the next ranked mode on rotation
+GetUpcomingRankedModeIntent what is the next ranked battle mode
+GetUpcomingRankedModeIntent what is the next ranked battle mode rotation
+GetUpcomingRankedModeIntent what is the next ranked battle mode on rotation
+GetUpcomingRankedModeIntent what is the upcoming mode
+GetUpcomingRankedModeIntent what is the upcoming mode rotation
+GetUpcomingRankedModeIntent what is the upcoming mode on rotation
+GetUpcomingRankedModeIntent what is the upcoming ranked mode
+GetUpcomingRankedModeIntent what is the upcoming ranked mode rotation
+GetUpcomingRankedModeIntent what is the upcoming ranked mode on rotation
+GetUpcomingRankedModeIntent what is the upcoming ranked battle mode
+GetUpcomingRankedModeIntent what is the upcoming ranked battle mode rotation
+GetUpcomingRankedModeIntent what is the upcoming ranked battle mode on rotation
+GetUpcomingRankedModeIntent what is the future mode
+GetUpcomingRankedModeIntent what is the future mode rotation
+GetUpcomingRankedModeIntent what is the future mode on rotation
+GetUpcomingRankedModeIntent what is the future ranked mode
+GetUpcomingRankedModeIntent what is the future ranked mode rotation
+GetUpcomingRankedModeIntent what is the future ranked mode on rotation
+GetUpcomingRankedModeIntent what is the future ranked battle mode
+GetUpcomingRankedModeIntent what is the future ranked battle mode rotation
+GetUpcomingRankedModeIntent what is the future ranked battle mode on rotation
+GetUpcomingRankedModeIntent get the next mode
+GetUpcomingRankedModeIntent get the next mode rotation
+GetUpcomingRankedModeIntent get the next mode on rotation
+GetUpcomingRankedModeIntent get the next ranked mode
+GetUpcomingRankedModeIntent get the next ranked mode rotation
+GetUpcomingRankedModeIntent get the next ranked mode on rotation
+GetUpcomingRankedModeIntent get the next ranked battle mode
+GetUpcomingRankedModeIntent get the next ranked battle mode rotation
+GetUpcomingRankedModeIntent get the next ranked battle mode on rotation
+GetUpcomingRankedModeIntent get the upcoming mode
+GetUpcomingRankedModeIntent get the upcoming mode rotation
+GetUpcomingRankedModeIntent get the upcoming mode on rotation
+GetUpcomingRankedModeIntent get the upcoming ranked mode
+GetUpcomingRankedModeIntent get the upcoming ranked mode rotation
+GetUpcomingRankedModeIntent get the upcoming ranked mode on rotation
+GetUpcomingRankedModeIntent get the upcoming ranked battle mode
+GetUpcomingRankedModeIntent get the upcoming ranked battle mode rotation
+GetUpcomingRankedModeIntent get the upcoming ranked battle mode on rotation
+GetUpcomingRankedModeIntent get the future mode
+GetUpcomingRankedModeIntent get the future mode rotation
+GetUpcomingRankedModeIntent get the future mode on rotation
+GetUpcomingRankedModeIntent get the future ranked mode
+GetUpcomingRankedModeIntent get the future ranked mode rotation
+GetUpcomingRankedModeIntent get the future ranked mode on rotation
+GetUpcomingRankedModeIntent get the future ranked battle mode
+GetUpcomingRankedModeIntent get the future ranked battle mode rotation
+GetUpcomingRankedModeIntent get the future ranked battle mode on rotation
+GetUpcomingRankedModeIntent the next mode
+GetUpcomingRankedModeIntent the next mode rotation
+GetUpcomingRankedModeIntent the next mode on rotation
+GetUpcomingRankedModeIntent the next ranked mode
+GetUpcomingRankedModeIntent the next ranked mode rotation
+GetUpcomingRankedModeIntent the next ranked mode on rotation
+GetUpcomingRankedModeIntent the next ranked battle mode
+GetUpcomingRankedModeIntent the next ranked battle mode rotation
+GetUpcomingRankedModeIntent the next ranked battle mode on rotation
+GetUpcomingRankedModeIntent the upcoming mode
+GetUpcomingRankedModeIntent the upcoming mode rotation
+GetUpcomingRankedModeIntent the upcoming mode on rotation
+GetUpcomingRankedModeIntent the upcoming ranked mode
+GetUpcomingRankedModeIntent the upcoming ranked mode rotation
+GetUpcomingRankedModeIntent the upcoming ranked mode on rotation
+GetUpcomingRankedModeIntent the upcoming ranked battle mode
+GetUpcomingRankedModeIntent the upcoming ranked battle mode rotation
+GetUpcomingRankedModeIntent the upcoming ranked battle mode on rotation
+GetUpcomingRankedModeIntent the future mode
+GetUpcomingRankedModeIntent the future mode rotation
+GetUpcomingRankedModeIntent the future mode on rotation
+GetUpcomingRankedModeIntent the future ranked mode
+GetUpcomingRankedModeIntent the future ranked mode rotation
+GetUpcomingRankedModeIntent the future ranked mode on rotation
+GetUpcomingRankedModeIntent the future ranked battle mode
+GetUpcomingRankedModeIntent the future ranked battle mode rotation
+GetUpcomingRankedModeIntent the future ranked battle mode on rotation
+GetUpcomingRankedModeIntent what is the next ranked rotation mode
+GetUpcomingRankedModeIntent what is the next ranked rotation battle mode
+GetUpcomingRankedModeIntent what is the upcoming ranked rotation mode
+GetUpcomingRankedModeIntent what is the upcoming ranked rotation battle mode
+GetUpcomingRankedModeIntent what is the future ranked rotation mode
+GetUpcomingRankedModeIntent what is the future ranked rotation battle mode
+GetUpcomingRankedModeIntent get the next ranked rotation mode
+GetUpcomingRankedModeIntent get the next ranked rotation battle mode
+GetUpcomingRankedModeIntent get the upcoming ranked rotation mode
+GetUpcomingRankedModeIntent get the upcoming ranked rotation battle mode
+GetUpcomingRankedModeIntent get the future ranked rotation mode
+GetUpcomingRankedModeIntent get the future ranked rotation battle mode
+GetUpcomingRankedModeIntent the next ranked rotation mode
+GetUpcomingRankedModeIntent the next ranked rotation battle mode
+GetUpcomingRankedModeIntent the upcoming ranked rotation mode
+GetUpcomingRankedModeIntent the upcoming ranked rotation battle mode
+GetUpcomingRankedModeIntent the future ranked rotation mode
+GetUpcomingRankedModeIntent the future ranked rotation battle mode
 GetUpcomingRankedModeIntent what will the ranked mode be
 GetUpcomingRankedModeIntent what will the ranked rotation mode be
-GetUpcomingRankedModeIntent what is the next ranked mode
-GetUpcomingRankedModeIntent what is the next ranked mode on rotation
-GetUpcomingRankedModeIntent what is the next ranked rotation mode
-GetUpcomingRankedModeIntent what ranked mode will be on next
-GetUpcomingRankedModeIntent what ranked mode will be on rotation next
-GetUpcomingRankedModeIntent what will the ranked mode be next
-GetUpcomingRankedModeIntent what will the ranked rotation mode be next
-GetUpcomingRankedModeIntent the next ranked mode
-GetUpcomingRankedModeIntent the next ranked mode on rotation
-GetUpcomingRankedModeIntent the next ranked rotation mode
+GetUpcomingRankedModeIntent what will the next ranked mode be
+GetUpcomingRankedModeIntent what will the next ranked rotation mode be
+GetUpcomingRankedModeIntent what will the upcoming ranked mode be
+GetUpcomingRankedModeIntent what will the upcoming ranked rotation mode be
+GetUpcomingRankedModeIntent what will the future ranked mode be
+GetUpcomingRankedModeIntent what will the future ranked rotation mode be
 GetUpcomingRankedModeIntent the ranked mode on next
 GetUpcomingRankedModeIntent the ranked mode on rotation next
-
+GetUpcomingRankedModeIntent the next ranked mode
+GetUpcomingRankedModeIntent the upcoming ranked mode
+GetUpcomingRankedModeIntent the future ranked mode
+GetUpcomingRankedModeIntent the forecasted ranked mode
 
 GetRotationTimeIntent when will these maps be over
 GetRotationTimeIntent when will these stages be over
@@ -221,7 +904,6 @@ GetRotationTimeIntent when the current stages will be over
 GetRotationTimeIntent when the current rotation will be over
 GetRotationTimeIntent when the current map rotation will be over
 GetRotationTimeIntent when the current stage rotation will be over
-
 GetRotationTimeIntent when will these maps end
 GetRotationTimeIntent when will these stages end
 GetRotationTimeIntent when will the maps on rotation end

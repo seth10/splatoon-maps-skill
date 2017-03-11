@@ -1,5 +1,44 @@
 GetCurrentMapsIntent what {maps,stages} are on {,rotation}
-GetCurrentMapsIntent what is the {,current} {,map,stage} rotation
-GetCurrentMapsIntent what are the {,current} {maps,stages} {,on rotation}
-GetCurrentMapsIntent {,get} the {,current} {maps,stages} {,on rotation}
-GetCurrentMapsIntent {,get} the {,map,stage} rotation
+GetCurrentMapsIntent {what is,get,} the {,current} {,map,stage} rotation
+GetCurrentMapsIntent {what are,get,} the {,current} {maps,stages} {,on rotation}
+GetCurrentMapsIntent what{'s, is} on {,rotation}
+
+GetCurrentRankedMapsIntent what ranked {,battle} {maps,stages} are on {,rotation}
+GetCurrentRankedMapsIntent {what is,get,} the {,current} ranked {,battle} {,map,stage} rotation
+GetCurrentRankedMapsIntent {what are,get,} the {,current} ranked {,battle} {maps,stages} {,on rotation}
+
+GetCurrentTurfWarMapsIntent what {turf war{,s},regular battle} {maps,stages} are on {,rotation}
+GetCurrentTurfWarMapsIntent {what is,get,} the {,current} {turf war{,s},regular battle} {,map,stage} rotation
+GetCurrentTurfWarMapsIntent {what are,get,} the {,current} {turf war{,s},regular battle} {maps,stages} {,on rotation}
+
+GetCurrentRankedModeIntent what {,ranked{,battle}} mode is on {,rotation}
+GetCurrentRankedModeIntent {what is,get,} the {,current} {,ranked{,battle}} mode {,{,on }rotation}
+GetCurrentRankedModeIntent {what is,get,} the {,current} ranked rotation {,battle} mode
+
+GetUpcomingMapsIntent what {maps,stages} {will,are going to} be on {,rotation}
+GetUpcomingMapsIntent {what is,get,} the {next,upcoming,future} {,map,stage} rotation
+GetUpcomingMapsIntent {what are,get,} the {next,upcoming,future} {maps,stages} {,on rotation}
+GetUpcomingMapsIntent what{'ll, will} be on {,rotation}
+
+GetUpcomingRankedMapsIntent what ranked {,battle} {maps,stages} {will,are going to} be on {,rotation}
+GetUpcomingRankedMapsIntent {what is,get,} the {next,upcoming,future} ranked {,battle} {,map,stage} rotation
+GetUpcomingRankedMapsIntent {what are,get,} the {next,upcoming,future} ranked {,battle} {maps,stages} {,on rotation}
+
+GetUpcomingTurfWarMapsIntent what {turf war{,s},regular battle} {maps,stages} {will,are going to} be on {,rotation}
+GetUpcomingTurfWarMapsIntent {what is,get,} the {next,upcoming,future} {turf war{,s},regular battle} {,map,stage} rotation
+GetUpcomingTurfWarMapsIntent {what are,get,} the {next,upcoming,future} {turf war{,s},regular battle} {maps,stages} {,on rotation}
+
+GetUpcomingRankedModeIntent what {,ranked{,battle}} mode will be on {,rotation,next,next rotation,rotation next}
+GetUpcomingRankedModeIntent {what is,get,} the {next,upcoming,future} {,ranked{,battle}} mode {,{,on }rotation}
+GetUpcomingRankedModeIntent {what is,get,} the {next,upcoming,future} ranked rotation {,battle} mode
+GetUpcomingRankedModeIntent what will the {,next,upcoming,future} ranked {,rotation} mode be
+GetUpcomingRankedModeIntent the ranked mode on {,rotation} next
+
+GetRotationTimeIntent when will these {maps,stages} {be over,end}
+GetRotationTimeIntent when will the {maps,stages} on rotation {be over,end}
+GetRotationTimeIntent when will this {,map,stage} rotation {be over,end}
+GetRotationTimeIntent when will the current {maps,stages,{,map,stage} rotation} {be over,end}
+GetRotationTimeIntent when these {maps,stages} will {be over,end}
+GetRotationTimeIntent when the {maps,stages} on rotation will {be over,end}
+GetRotationTimeIntent when this {,map,stage} rotation will {be over,end}
+GetRotationTimeIntent when the current {maps,stages,{,map,stage} rotation} will {be over,end}
