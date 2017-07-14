@@ -51,11 +51,16 @@ var handlers = {
             emit(':tell', `The next Turf Wars maps are ${schedule.regular.maps[0].name.en} and ${schedule.regular.maps[1].name.en}.`);
         });
     },
-    'GetUpcomingRankedModeIntent': function() {
-        getSchedule(1, this.emit, function(emit, schedule) {
+    'GetUpcomingRankedModeIntent': getSchedule.bind(null, 1, this.emit, function(emit, schedule) {
             emit(':tell', `The next ranked mode is ${schedule.ranked.rules.en}.`);
         });
     },
+    'GetUpcomingRankedModeIntent': getSchedule.bind(null, 1, this.emit,
+                                                    emit.bind(':tell', `The next ranked mode is ${schedule.ranked.rules.en}.`)),
+    'GetUpcomingRankedModeIntent': getSchedule.bind(null, 1, this.emit,
+                                                    schedule => emit(':tell', `The next ranked mode is ${schedule.ranked.rules.en}.`)),
+    'GetUpcomingRankedModeIntent': getSchedule.bind(this,
+                                       schedule => emit(':tell', `The next ranked mode is ${schedule[1].ranked.rules.en}.`)),
     'GetRotationTimeIntent': function() {
         getSchedule(0, this.emit, function(emit, schedule) {
             var response = `The current maps ends at ${moment(schedule.endTime).utcOffset('-0500').format('h:mm a')}, in `;
@@ -88,4 +93,11 @@ function getSchedule(which, emit, callback) {
     }, function (error, response, body) {
         callback(emit, body.schedule[which]);
     });
+}
+function getSchedule(callback) {
+    request(
+        { url: 'http://splatoon.ink/schedule.json',
+          json: true },
+        (error, response, body) => callback(body.schedule);
+    );
 }
