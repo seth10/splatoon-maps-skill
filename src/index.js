@@ -58,10 +58,17 @@ var handlers = {
     },
     'GetRotationTimeIntent': function() {
         getSchedule(0, this.emit, function(emit, schedule) {
-            if (moment(schedule.endTime).diff(moment(), 'hours') > 0)
-                emit(':tell', `The current maps ends at ${moment(schedule.endTime).utcOffset('-0500').format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'hours')} hours and ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
+            var response = `The current maps ends at ${moment(schedule.endTime).utcOffset('-0500').format('h:mm a')}, in `;
+            let hr = moment(schedule.endTime).diff(moment(), 'hours');
+            let min = ${moment(schedule.endTime).diff(moment(), 'minutes') % 60;
+            let minText = (min == 1 ? 'minute' : 'minutes');
+            if (hr == 0)
+                response += `${min} ${minText}.`;
+            else if (hr == 1)
+                response += `${hr} hour and ${min} ${minText}`;
             else
-                emit(':tell', `The current maps ends at ${moment(schedule.endTime).utcOffset('-0500').format('h:mm a')}, in ${moment(schedule.endTime).diff(moment(), 'minutes') % 60} minutes.`);
+                response += `${hr} hours and ${min} ${minText}`;
+            emit(':tell', response);
         });
     },
     'AMAZON.HelpIntent': function () {
