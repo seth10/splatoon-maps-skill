@@ -61,13 +61,10 @@ var handlers = {
             var response = `The current maps ends at ${moment(schedule.endTime).utcOffset('-0500').format('h:mm a')}, in `;
             let hr = moment(schedule.endTime).diff(moment(), 'hours');
             let min = ${moment(schedule.endTime).diff(moment(), 'minutes') % 60;
+            let hrText = (hr == 1 ? 'hour' : 'hours');
             let minText = (min == 1 ? 'minute' : 'minutes');
-            if (hr == 0)
-                response += `${min} ${minText}.`;
-            else if (hr == 1)
-                response += `${hr} hour and ${min} ${minText}`;
-            else
-                response += `${hr} hours and ${min} ${minText}`;
+            if (hr > 0) response += `{hr} ${hrText} and `;
+            response += `${min} ${minText}.`;
             emit(':tell', response);
         });
     },
