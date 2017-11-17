@@ -65,7 +65,7 @@ var handlers = {
             let hrText = (hr == 1 ? 'hour' : 'hours');
             let minText = (min == 1 ? 'minute' : 'minutes');
             if (hr > 0)
-                response += `{hr} ${hrText}` + (min > 0 ? ' and ' : '.');
+                response += `${hr} ${hrText}` + (min > 0 ? ' and ' : '.');
             if (min > 0) response += `${min} ${minText}.`;
             if (hr == 0 && min == 0) response = 'The current maps end in less than one minute.';
             emit(':tell', response);
