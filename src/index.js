@@ -59,7 +59,7 @@ var handlers = {
     'GetRotationTimeIntent': function() {
         getSchedule(this.emit, function(emit, schedule) {
             let endTime = moment(schedule.modes.regular[0].endTime*1000);
-            var response = `The current maps ends at ${endTime.utcOffset('-0500').format('h:mm a')}, in `;
+            var response = `The current maps end at ${endTime.utcOffset('-0500').format('h:mm a')}, in `;
             let hr = endTime.diff(moment(), 'hours');
             let min = endTime.diff(moment(), 'minutes') % 60;
             let hrText = (hr == 1 ? 'hour' : 'hours');
