@@ -16,43 +16,29 @@ var handlers = {
     'LaunchRequest': function() {
         this.emit('GetCurrentMapsIntent');
     },
-    'GetCurrentMapsIntent': getSchedule(function(emit, schedule) {
-        emit(':tell', `The current maps are ${schedule.modes.regular[0].maps[0]} and ${schedule.modes.regular[0].maps[1]} for Turf Wars, and ${schedule.modes.gachi[0].maps[0]} and ${schedule.modes.gachi[0].maps[1]} for ${schedule.modes.gachi[0].rule.name}.`);
-    }),
-    'GetCurrentRankedMapsIntent': getSchedule(function(emit, schedule) {
-        emit(':tell', `The current ${schedule.modes.gachi[0].rule.name} maps are ${schedule.modes.gachi[0].maps[0]} and ${schedule.modes.gachi[0].maps[1]}.`);
-    }),
-    'GetCurrentTurfWarMapsIntent': getSchedule(function(emit, schedule) {
-        emit(':tell', `The current Turf Wars maps are ${schedule.modes.regular[0].maps[0]} and ${schedule.modes.regular[0].maps[1]}.`);
-    }),
-    'GetCurrentRankedModeIntent': getSchedule(function(emit, schedule) {
-        emit(':tell', `The current ranked mode is ${schedule.modes.gachi[0].rule.name}.`);
-    }),
-    'GetUpcomingMapsIntent': getSchedule(function(emit, schedule) {
-        emit(':tell', `The next maps are ${schedule.modes.regular[1].maps[0]} and ${schedule.modes.regular[1].maps[1]} for Turf Wars, and ${schedule.modes.gachi[1].maps[0]} and ${schedule.modes.gachi[1].maps[1]} for ${schedule.modes.gachi[1].rule.name}.`);
-    }),
-    'GetUpcomingRankedMapsIntent': getSchedule(function(emit, schedule) {
-        emit(':tell', `The next ${schedule.modes.gachi[1].rule.name} maps are ${schedule.modes.gachi[1].maps[0]} and ${schedule.modes.gachi[1].maps[1]}.`);
-    }),
-    'GetUpcomingTurfWarMapsIntent': getSchedule(function(emit, schedule) {
-        emit(':tell', `The next Turf Wars maps are ${schedule.modes.regular[1].maps[0]} and ${schedule.modes.regular[1].maps[0]}.`);
-    }),
-    'GetUpcomingRankedModeIntent': getSchedule(function(emit, schedule) {
-        emit(':tell', `The next ranked mode is ${schedule.modes.gachi[1].rule.name}.`);
-    }),
-    'GetRotationTimeIntent': getSchedule(function(emit, schedule) {
-        let endTime = moment(schedule.modes.regular[0].endTime*1000);
-        var response = `The current maps end at ${endTime.utcOffset('-0500').format('h:mm a')}, in `;
-        let hr = endTime.diff(moment(), 'hours');
-        let min = endTime.diff(moment(), 'minutes') % 60;
-        let hrText = (hr == 1 ? 'hour' : 'hours');
-        let minText = (min == 1 ? 'minute' : 'minutes');
-        if (hr > 0)
-            response += `${hr} ${hrText}` + (min > 0 ? ' and ' : '.');
-        if (min > 0) response += `${min} ${minText}.`;
-        if (hr == 0 && min == 0) response = 'The current maps end in less than one minute.';
-        emit(':tell', response);
-    }),
+    'GetCurrentMapsIntent':         emitSchedule(schedule => `The current maps are ${schedule.modes.regular[0].maps[0]} and ${schedule.modes.regular[0].maps[1]} for Turf Wars, and ${schedule.modes.gachi[0].maps[0]} and ${schedule.modes.gachi[0].maps[1]} for ${schedule.modes.gachi[0].rule.name}.`),
+    'GetCurrentRankedMapsIntent':   emitSchedule(schedule => `The current ${schedule.modes.gachi[0].rule.name} maps are ${schedule.modes.gachi[0].maps[0]} and ${schedule.modes.gachi[0].maps[1]}.`),
+    'GetCurrentTurfWarMapsIntent':  emitSchedule(schedule => `The current Turf Wars maps are ${schedule.modes.regular[0].maps[0]} and ${schedule.modes.regular[0].maps[1]}.`),
+    'GetCurrentRankedModeIntent':   emitSchedule(schedule => `The current ranked mode is ${schedule.modes.gachi[0].rule.name}.`),
+    'GetUpcomingMapsIntent':        emitSchedule(schedule => `The next maps are ${schedule.modes.regular[1].maps[0]} and ${schedule.modes.regular[1].maps[1]} for Turf Wars, and ${schedule.modes.gachi[1].maps[0]} and ${schedule.modes.gachi[1].maps[1]} for ${schedule.modes.gachi[1].rule.name}.`),
+    'GetUpcomingRankedMapsIntent':  emitSchedule(schedule => `The next ${schedule.modes.gachi[1].rule.name} maps are ${schedule.modes.gachi[1].maps[0]} and ${schedule.modes.gachi[1].maps[1]}.`),
+    'GetUpcomingTurfWarMapsIntent': emitSchedule(schedule => `The next Turf Wars maps are ${schedule.modes.regular[1].maps[0]} and ${schedule.modes.regular[1].maps[0]}.`),
+    'GetUpcomingRankedModeIntent':  emitSchedule(schedule => `The next ranked mode is ${schedule.modes.gachi[1].rule.name}.`),
+    'GetRotationTimeIntent': function() {
+        let emit = this.emit;
+        getSchedule(schedule => {
+            let endTime = moment(schedule.modes.regular[0].endTime*1000);
+            var response = `The current maps end at ${endTime.utcOffset('-0500').format('h:mm a')}, in `;
+            let hr = endTime.diff(moment(), 'hours');
+            let min = endTime.diff(moment(), 'minutes') % 60;
+            let hrText = (hr == 1 ? 'hour' : 'hours');
+            let minText = (min == 1 ? 'minute' : 'minutes');
+            if (hr > 0) response += `${hr} ${hrText}` + (min > 0 ? ' and ' : '.');
+            if (min > 0) response += `${min} ${minText}.`;
+            if (hr == 0 && min == 0) response = 'The current maps end in less than one minute.';
+            emit(':tell', response);
+        });
+    },
     'AMAZON.HelpIntent': function () {
         this.emit(':tell', 'You can say: alexa, ask the squid sisters what are the current maps.');
     },
@@ -65,13 +51,19 @@ var handlers = {
 };
 
 function getSchedule(callback) {
+    request({
+        url: 'http://splatoon.ink/schedule2.json',
+        json: true
+    }, function (error, response, body) {
+        callback(body);
+    });
+}
+function emitSchedule(responseFunc) {
     let emit = this.emit;
-    return function () {
-        request({
-            url: 'http://splatoon.ink/schedule2.json',
-            json: true
-        }, function (error, response, body) {
-            callback(emit, body);
-        });
-    };
+    request({
+        url: 'http://splatoon.ink/schedule2.json',
+        json: true
+    }, function (error, response, body) {
+        emit(':tell', responseFunc(body));
+    });
 }
