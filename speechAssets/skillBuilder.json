@@ -1,0 +1,99 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "gameMode",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "turf war",
+              "synonyms": [
+                "turf wars",
+                "regular battle"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "ranked",
+              "synonyms": [
+                "rainmaker",
+                "tower control",
+                "splat zones",
+                "ranked battle"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "timeSlot",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "current",
+              "synonyms": []
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "next",
+              "synonyms": [
+                "upcoming",
+                "future"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "GetMapsIntent",
+        "samples": [
+          "what maps are on",
+          "what stages are on rotation",
+          "what are the {timeSlot} {gameMode} maps",
+          "what is the {timeSlot} {gameMode} rotation"
+        ],
+        "slots": [
+          {
+            "name": "timeSlot",
+            "type": "timeSlot"
+          },
+          {
+            "name": "gameMode",
+            "type": "gameMode"
+          }
+        ]
+      },
+      {
+        "name": "GetModeIntent",
+        "samples": [],
+        "slots": []
+      },
+      {
+        "name": "GetRotationTimeIntent",
+        "samples": [],
+        "slots": []
+      }
+    ],
+    "invocationName": "the squid sisters"
+  }
+}
